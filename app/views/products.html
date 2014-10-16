@@ -1,5 +1,5 @@
 <div class="alert alert-success" role="alert">
-  在面积<b>{{area}}</b>平米，高度<b>{{height}}</b>米的房间，可以达到<b>{{cyclesLevel()}}</b>净化效果的空气净化器产品如下
+  在面积 <b>{{areaRangeText()}}</b> 平米，高度 <b>{{heightRangeText()}}</b> 米的房间，可以达到 <b>{{cycleText()}}</b> 净化效果的空气净化器产品如下（以下结果为随机排序）
 </div>
 
 <div class="row">
@@ -10,7 +10,7 @@
       </a>
       <div class="caption">
         <h5>
-          <a target="_blank" href="#/product/{{product.id}}/detail">{{product.brand}} {{product.model}}</a>
+          <a href="#/product/{{product.id}}/detail">{{product.brand}} {{product.model}}</a>
         </h5>
         <b>CADR</b>: {{product.cadr_dust}} m³/h
         <b>产地</b>: {{product.made_in}}

@@ -1,0 +1,19 @@
+#product-image {
+  text-align:center; 
+}
+
+#query_text {
+  font-size: 24px;
+}
+
+#query_text .form-control {
+  display: inline;
+  width: 80px;
+  padding: 3px 12px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#back-nav a {
+  font-size: 17px;
+}

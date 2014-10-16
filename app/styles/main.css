@@ -77,3 +77,14 @@ body {
     border-bottom: 0;
   }
 }
+
+
+
+.tag-btn {
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+a.list-group-item {
+  cursor: pointer;
+}

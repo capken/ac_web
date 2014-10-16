@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="cleanAirApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>爱清新</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/holder.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/products.js"></script>
+  </head>
+  <body ng-controller="productCtrl">
+    <div class="container-fluid">
+      <ol class="breadcrumb">
+        <li><a href="nav.html">咨询首页</a></li>
+        <li class="active">{{product.brand + ' ' + product.model}} 产品详情</li>
+      </ol>
+      <div class="panel panel-defualt">
+        <div class="panel-body">
+          <div id="product-image">
+            <img class="media-object img-rounded" data-src="holder.js/100%x200" alt="image">
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        本产品由
+        <strong>{{product.brand}}</strong> 公司在
+        <strong>{{product.made_in}}</strong> 生产。
+        <strong>{{product.brand}}</strong> 是一家专业空气净化厂商。本产品采用物理过滤的净化技术, CADR值为
+        <strong>{{product.cadr_dust}}</strong> m³/h（数值来自美国AHAM官方网站，可信度很高）。
+      </div>
+      <div class="list-group">
+        <a ng-show="product.reviews_link" href="{{product.reviews_link}}" class="list-group-item">看看大家的评论</a>
+        <a href="#" class="list-group-item">看看第三方对此产品的评测</a>
+        <a ng-show="product.etao_link" href="{{product.etao_link}}" class="list-group-item">如果您决定购买，看看那里买最便宜</a>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

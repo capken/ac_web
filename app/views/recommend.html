@@ -1,23 +1,25 @@
 <ol class="breadcrumb">
-  <li><a href="nav.html">咨询首页</a></li>
+  <li><a href="#/nav">咨询首页</a></li>
   <li class="active">获得推荐</li>
 </ol>
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h4>您打算放置空气净化器的房间面积及高度</h4>
+    <h4>您打算放置空气净化器的房间面积</h4>
   </div>
   <div class="panel-body">
-    <div class="input-group">
-      <span class="input-group-addon">面积</span>
-      <input type="number" class="form-control" ng-model="area">
-      <span class="input-group-addon">平米</span>
-    </div>
-    <br/>
-    <div class="input-group">
-      <span class="input-group-addon">高度</span>
-      <input type="number" class="form-control" ng-model="height">
-      <span class="input-group-addon">米 &nbsp;&nbsp;&nbsp;</span>
+    <a class="tag-btn btn {{classOfAreaButton(area)}}" ng-click="selectArea(area)" ng-repeat="area in listOfRoomArea">{{area.label}}平米</a>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4>您打算放置空气净化器的房间高度</h4>
+  </div>
+  <div class="panel-body">
+    <div class="list-group">
+      <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
+        <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
     </div>
   </div>
 </div>
@@ -28,10 +30,10 @@
   </div>
   <div class="panel-body">
     <div class="list-group">
-      <a href="#" ng-click="setCycles(5)" ng-class="cycles == 5 ? 'active' : ''" class="list-group-item"><b>“优秀”</b> - 洁净空气的换气量为5次/小时</a>
-      <a href="#" ng-click="setCycles(4)" ng-class="cycles == 4 ? 'active' : ''" class="list-group-item"><b>“良好”</b> - 洁净空气的换气量为4次/小时</a>
-      <a href="#" ng-click="setCycles(3)" ng-class="cycles == 3 ? 'active' : ''" class="list-group-item"><b>“一般”</b> - 洁净空气的换气量为3次/小时</a>
+      <a class="list-group-item {{classOfCycleItem(cycle)}}" ng-click="selectCycle(cycle)" ng-repeat="cycle in listOfCycle">{{cycle.label}}
+        <i ng-show="cycle.value == params.cycle" class="pull-right fa fa-check"></i></a>
     </div>
   </div>
 </div>
-<p><a href="#" class="btn btn-success btn-block" role="button" ng-click="search()">推荐一下</a></p>
+
+<div><a href="#/products" class="btn btn-success btn-block" role="button">推荐一下</a></div>
