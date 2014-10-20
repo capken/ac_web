@@ -1,0 +1,47 @@
+<ol class="breadcrumb">
+  <li><a href="#/nav">爱清新</a></li>
+  <li class="active">选择产品</li>
+</ol>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4>{{label.model}}</h4>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-6">
+        <select class="form-control" ng-model="params.brand" ng-options=
+          "brand as brand for brand in brands" ng-change="filterModels()">
+        </select>
+      </div>
+      <div class="col-md-6">
+        <select class="form-control" ng-model="params.productId" ng-options=
+          "model.id as model.model for model in models">
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4>{{label.area}}</h4>
+  </div>
+  <div class="panel-body">
+    <a class="tag-btn btn {{classOfAreaButton(area)}}" ng-click="selectArea(area)" ng-repeat="area in listOfRoomArea">{{area.label}}平米</a>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4>{{label.height}}</h4>
+  </div>
+  <div class="panel-body">
+    <div class="list-group">
+      <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
+        <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
+    </div>
+  </div>
+</div>
+
+<p><a href="#/product/{{params.productId}}/review" class="btn btn-success btn-block" role="button">{{label.submit}}</a></p>

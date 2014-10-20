@@ -5,6 +5,8 @@ angular.module('airCleanersWebApp')
   $scope.params = {
     area: '10:15',
     height: '2.5:2.8',
-    cycle: 4
+    cycle: 4,
+    brand: '布鲁雅尔',
+    productId: 1365
   };
 });

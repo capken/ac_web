@@ -1,0 +1,7 @@
+<div class="jumbotron">
+  <p>在面积<b>{{area}}</b>平米高度<b>{{height}}</b>米的房间内放置
+  <b>{{product.brand + '' + product.model}}</b> 空气净化器，
+  当开到最高档时，洁净空气的换气量为 <b>{{cycles | number:1 }}</b> 次/小时，空气净化效果
+  <b>{{cyclesLevel()}}</b> 。{{conclusion()}}</p>
+  <p><a href="#/product/{{params.productId}}/detail" class="btn btn-primary btn-lg" role="button">查看产品详情</a></p>
+</div>
