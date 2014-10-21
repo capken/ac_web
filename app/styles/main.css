@@ -88,3 +88,15 @@ body {
 a.list-group-item {
   cursor: pointer;
 }
+
+.product-content {
+  text-align: center;
+}
+
+.product-content img {
+  vertical-align: middle;
+}
+
+#product-image {
+  margin-bottom: 20px
+}
