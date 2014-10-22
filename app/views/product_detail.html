@@ -7,11 +7,10 @@
       <img src="http://placehold.it/320x240">
     </div>
     <div class="jumbotron">
-      本产品由 <strong>{{product.brand}}</strong> 公司在中国生产。 <strong>{{product.brand}}</strong> 是一家专业空气净化厂商。本产品的CADR值为 <strong>{{product.cadr_dust}}</strong> m³/h（数值来自美国AHAM官方网站，可信度很高），采用物理过滤的净化技术。
+      本产品由 <strong>{{product.brand}}</strong> 公司在 <strong>{{product.made_in}}</strong> 生产。 <strong>{{product.brand}}</strong> 是一家专业空气净化厂商。本产品采用{物理过滤}的净化技术，CADR值为 <strong>{{product.cadr_dust}}</strong> m³/h（{{ahamText()}}）。
     </div>
     <div class="list-group">
       <a ng-show="product.reviews_link" href="{{product.reviews_link}}" class="list-group-item">看看大家的评论</a>
-      <a href="#" class="list-group-item">看看第三方对此产品的评测</a>
       <a ng-show="product.etao_link" href="{{product.etao_link}}" class="list-group-item">如果您决定购买，看看那里买最便宜</a>
     </div>
   </div>

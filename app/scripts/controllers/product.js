@@ -7,6 +7,12 @@ angular.module('airCleanersWebApp')
     $scope.product = product;
   });
 
+  $scope.ahamText = function() {
+    return $scope.product.aham_verified ? 
+      '此数值通过美国AHAM官方认证，可信度很高' :
+      '此数值来自于厂商官方网站，可信度一般';
+  }
+
   $scope.cyclesCount = function() {
     if(angular.isDefined($scope.product) &&
         angular.isDefined($scope.product.cadr_dust)) {
@@ -22,7 +28,7 @@ angular.module('airCleanersWebApp')
   };
 
   $scope.conclusion = function() {
-    return '===结论===';
+    return '=== 结论内容，稍后实现 ===';
   }
 
 });
