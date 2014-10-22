@@ -3,7 +3,7 @@
 angular.module('airCleanersWebApp')
 .controller('ProductCtrl', function ($scope, $http, $routeParams, $filter) {
 
-  $http.get('/data/product.json').success(function(product) {
+  $http.get('products/' + $routeParams.id).success(function(product) {
     $scope.product = product;
   });
 

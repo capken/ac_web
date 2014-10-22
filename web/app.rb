@@ -18,29 +18,6 @@ get '/products/:id' do
   json product
 end
 
-#get '/products' do
-#  condition = {}
-#  ['brand', 'model'].each do |attr|
-#    condition[attr] = params[attr] if params[attr]
-#  end
-#
-#  products = Product.where(condition)
-#
-#  json 'products' => products
-#end
-
-#get '/brands' do
-#  brands = Product.select(:brand).distinct
-#  json 'brands' => brands.map(&:brand)
-#end
-#
-#get '/models' do
-#  models = Product.select(:model).
-#    where(brand: params['brand']).distinct
-#  json 'brand' => params['brand'],
-#    'models' => models.map(&:model)
-#end
-
 get '/all_brands_models' do
   results = []
   Product.select(:id, :brand, :model).each do |p|
@@ -54,21 +31,16 @@ get '/all_brands_models' do
 end
 
 get '/products' do
-  mode = params['mode']
-  room_area = params['room_area'].to_i
-  room_height = params['room_height'].to_i
+  min_area, max_area = params['area'].split(':').map(&:to_i)
+  min_height, max_height = params['height'].split(':').map(&:to_f)
+  cycle = params['cycle'].to_i
 
-  case mode
-#  when /search/
-#    condition = "id = '#{params['id']}'"
-  when /suggest/
-    air_refresh_count = params['air_refresh_count'].to_i
-    min_cadr = room_area * room_height * air_refresh_count
-    condition = "cadr_dust >= #{min_cadr}"
-  end
+  min_cadr = min_area * min_height * cycle
+  max_cadr = max_area * max_height * cycle
 
-  products = Product.where(condition.to_s).
-    order('cadr_dust').limit(20)
+  condition = "cadr_dust >= #{min_cadr} and cadr_dust <= #{max_cadr}"
+
+  products = Product.where(condition.to_s).limit(12)
 
   json products
 end
