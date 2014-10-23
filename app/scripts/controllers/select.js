@@ -4,6 +4,8 @@ angular.module('airCleanersWebApp')
 .controller('SelectCtrl', function ($scope, $http, $routeParams,
       listOfRoomArea, listOfRoomHeight, listOfCycle) {
 
+  $scope.params.reviewMode = $routeParams.selection;
+
   $scope.listOfRoomArea = listOfRoomArea;
   $scope.listOfRoomHeight = listOfRoomHeight;
   $scope.listOfCycle = listOfCycle;
@@ -13,7 +15,7 @@ angular.module('airCleanersWebApp')
     height: '您打算放置空气净化器的房间高度'
   };
 
-  if($routeParams.selection === '1') {
+  if($scope.params.reviewMode === '1') {
     $scope.label.model = '您打算购买的空气净化器的品牌及型号';
     $scope.label.submit = '预测下空气净化效果如何';
   } else {

@@ -7,7 +7,8 @@ angular.module('airCleanersWebApp')
     height: '2.5:2.8',
     cycle: 4,
     brand: '布鲁雅尔',
-    productId: 1365
+    productId: 1365,
+    reviewMode: '1'
   };
 
   $scope.minVolume = function() {
@@ -53,12 +54,14 @@ angular.module('airCleanersWebApp')
   }
 
   $scope.cycleText = function() {
-    if($scope.params.cycle == 5) {
+    if($scope.params.cycle >= 5) {
       return '优秀';
-    } else if($scope.params.cycle == 4) {
+    } else if(4 <= $scope.params.cycle && $scope.params.cycle < 5) {
       return '良好';
-    } else if($scope.params.cycle == 3) {
+    } else if(3 <= $scope.params.cycle && $scope.params.cycle < 4) {
       return '一般';
+    } else if($scope.params.cycle < 3) {
+      return '较差';
     }
   }
 

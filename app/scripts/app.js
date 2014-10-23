@@ -19,11 +19,11 @@ angular.module('airCleanersWebApp', ['ngRoute'])
       templateUrl: 'views/products.html',
       controller: 'ProductsCtrl'
     })
-    .when('/product/:id/review', {
+    .when('/products/:id/review', {
       templateUrl: 'views/product_review.html',
       controller: 'ProductCtrl'
     })
-    .when('/product/:id/detail', {
+    .when('/products/:id/detail', {
       templateUrl: 'views/product_detail.html',
       controller: 'ProductCtrl'
     })
