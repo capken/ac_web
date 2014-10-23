@@ -8,8 +8,9 @@ angular.module('airCleanersWebApp')
 
     if(angular.isDefined($scope.product.cadr_dust)) {
       var cadr = product.cadr_dust;
-      $scope.maxCount = $filter('number')(cadr/$scope.minVolume(), 1);
-      $scope.minCount = $filter('number')(cadr/$scope.maxVolume(), 1);
+      $scope.maxCount = cadr/$scope.minVolume();
+      $scope.minCount = cadr/$scope.maxVolume();
+      $scope.avgCount = $filter('number')(($scope.minCount + $scope.maxCount)/2.0, 1);
     }
 
   });
@@ -21,8 +22,8 @@ angular.module('airCleanersWebApp')
   };
 
   $scope.cyclesCountRange = function() {
-    if(angular.isDefined($scope.product.cadr_dust)) {
-      return $scope.minCount + ' - ' + $scope.maxCount;
+    if(angular.isDefined($scope.avgCount)) {
+      return $scope.avgCount;
     } else {
       return '';
     }
@@ -31,7 +32,7 @@ angular.module('airCleanersWebApp')
   $scope.conclusion = function() {
     var text = '';
 
-    var count = $scope.minCount;
+    var count = $scope.avgCount;
     if(count < 3) {
       text = '这台空气净化器放在您的房间，仅仅达到心理安慰的效果，在雾霾的天气无法保证室内空气的健康。';
     } else if(3 <= count && count < 4) {

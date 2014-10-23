@@ -53,15 +53,19 @@ angular.module('airCleanersWebApp')
     return $scope.params.height;
   }
 
-  $scope.cycleText = function() {
-    if($scope.params.cycle >= 5) {
-      return '优秀';
-    } else if(4 <= $scope.params.cycle && $scope.params.cycle < 5) {
-      return '良好';
-    } else if(3 <= $scope.params.cycle && $scope.params.cycle < 4) {
-      return '一般';
-    } else if($scope.params.cycle < 3) {
-      return '较差';
+  $scope.cycleText = function(count) {
+    if(angular.isDefined(count)) {
+      if(count >= 5) {
+        return '优秀';
+      } else if(4 <= count && count < 5) {
+        return '良好';
+      } else if(3 <= count && count < 4) {
+        return '一般';
+      } else if(count < 3) {
+        return '较差';
+      }
+    } else {
+      return '';
     }
   }
 
