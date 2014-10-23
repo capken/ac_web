@@ -95,8 +95,13 @@ a.list-group-item {
 
 .product-content img {
   vertical-align: middle;
+  height: 250px;
 }
 
 #product-image {
   margin-bottom: 20px
+}
+
+.product-image {
+  height: 200px !important;
 }

@@ -7,7 +7,7 @@ angular.module('airCleanersWebApp')
     height: '2.5:2.8',
     cycle: 4,
     brand: '布鲁雅尔',
-    productId: 1365,
+    productId: 'vNbGGv',
     reviewMode: '1'
   };
 

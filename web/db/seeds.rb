@@ -14,7 +14,16 @@ def score_of(product)
   return score
 end
 
+def image_of(image_strs)
+  if image_strs 
+    images = image_strs.split ','
+    return images[rand(images.size)]
+  end
+end
+
 Product.delete_all
+
+hashids = Hashids.new("airpal", 6)
 
 count = 0
 File.readlines(seeds_file).each do |input|
@@ -40,8 +49,12 @@ File.readlines(seeds_file).each do |input|
     p.reviews_link = record['reviews_link']
     p.etao_link = record['etao_link']
     p.score = score_of p
+    p.image_url = image_of(record['image'])
   end
 
+  product.save
+
+  product.hash_id = hashids.encode product.id
   product.save
 
   count += 1

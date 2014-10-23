@@ -3,6 +3,7 @@ require "sinatra/activerecord"
 require 'sinatra/base'
 require 'sinatra/json'
 require 'digest/sha1' 
+require 'hashids'
 
 set :database, {adapter: "sqlite3", database: "sample.sqlite3"}
 
@@ -14,15 +15,15 @@ get '/' do
 end
 
 get '/products/:id' do
-  product = Product.find(params[:id]) || {}
+  product = Product.find_by_hash_id(params[:id]) || {}
   json product
 end
 
 get '/all_brands_models' do
   results = []
-  Product.select(:id, :brand, :model).each do |p|
+  Product.select(:hash_id, :brand, :model).each do |p|
     results << {
-      :id => p.id,
+      :hash_id => p.hash_id,
       :brand => p.brand,
       :model => p.model
     }

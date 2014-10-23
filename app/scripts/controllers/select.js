@@ -52,11 +52,11 @@ angular.module('airCleanersWebApp')
     });
 
     if($scope.models.length > 0) {
-      $scope.params.productId = $scope.models[0].id;
+      $scope.params.productId = $scope.models[0].hash_id;
     }
   }
 
-  $http.get('/data/all_brands_models.json').success(function(allBrandsModels) {
+  $http.get('all_brands_models').success(function(allBrandsModels) {
     $scope.allBrandsModels = allBrandsModels;
 
     angular.forEach(allBrandsModels, function(item, index) {
