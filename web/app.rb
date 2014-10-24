@@ -10,6 +10,10 @@ set :database, {adapter: "sqlite3", database: "sample.sqlite3"}
 class Product < ActiveRecord::Base
 end
 
+before do
+  sleep 0.5
+end
+
 get '/' do
   redirect '/index.html' 
 end

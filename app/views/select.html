@@ -44,4 +44,4 @@
   </div>
 </div>
 
-<p><a href="#/products/{{params.productId}}/review" class="btn btn-success btn-block" role="button">{{label.submit}}</a></p>
+<p><a href="#/products/{{params.productId}}/review" class="btn btn-success btn-block" ng-class="{disabled: models.length == 0}" role="button">{{label.submit}}</a></p>

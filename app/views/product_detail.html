@@ -2,7 +2,8 @@
   <li class="active">{{product.brand}} - {{product.model}} 产品详情</li>
 </ol>
 <div class="row">
-  <div class="col-sm-12 product-content">
+  <div ng-hide="product" class="loading"><i class="fa fa-cog fa-spin fa-2x"></i></div>
+  <div ng-show="product" class="col-sm-12 product-content">
     <div id="product-image">
       <img src="{{product.image_url}}">
     </div>

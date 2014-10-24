@@ -1,11 +1,12 @@
 <div class="jumbotron">
-  <p ng-show="product.cadr_dust">在面积 <b>{{areaRangeText()}}</b> 平米高度 <b>{{heightRangeText()}}</b> 米的房间内放置
-  <b>{{product.brand + ' - ' + product.model}}</b> 空气净化器，
-  当开到最高档时，洁净空气的换气量为 <b>{{cyclesCountRange()}}</b> 次/小时，空气净化效果
-  <b>{{cycleText(avgCount)}}</b> 。</p>
-  <p ng-show="product.cadr_dust">{{conclusion()}}</p>
-
-  <p ng-hide="product.cadr_dust">抱歉，没有找到<b>{{product.brand + ' - ' + product.model}}</b> 空气净化器的CADR值。</p>
-
-  <p><a href="#/products/{{product.hash_id}}/detail" class="btn btn-primary btn-lg" role="button">查看产品详情</a></p>
+  <div ng-hide="product" class="loading"><i class="fa fa-cog fa-spin fa-2x"></i></div>
+  <div ng-show="product">
+    <p ng-show="product.cadr_dust">在面积 <b>{{areaRangeText()}}</b> 平米高度 <b>{{heightRangeText()}}</b> 米的房间内放置
+    <b>{{product.brand + ' - ' + product.model}}</b> 空气净化器，
+    当开到最高档时，洁净空气的换气量为 <b>{{cyclesCountRange()}}</b> 次/小时，空气净化效果
+    <b>{{cycleText(avgCount)}}</b> 。</p>
+    <p ng-show="product.cadr_dust">{{conclusion()}}</p>
+    <p ng-hide="product.cadr_dust">抱歉，没有找到<b>{{product.brand + ' - ' + product.model}}</b> 空气净化器的CADR值。</p>
+    <p><a href="#/products/{{product.hash_id}}/detail" class="btn btn-primary btn-lg" role="button">查看产品详情</a></p>
+  </div>
 </div>
