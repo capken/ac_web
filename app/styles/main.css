@@ -85,8 +85,13 @@ body {
   margin-bottom: 4px;
 }
 
-a.list-group-item {
+
+a.list-content {
   cursor: pointer;
+}
+
+.list-header {
+  background-color: #f5f5f5;
 }
 
 .product-content {

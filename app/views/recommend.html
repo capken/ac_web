@@ -12,28 +12,16 @@
   </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h4>您打算放置空气净化器的房间高度</h4>
-  </div>
-  <div class="panel-body">
-    <div class="list-group">
-      <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
-        <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
-    </div>
-  </div>
+<div class="list-group">
+  <a class="list-group-item list-header"><h4>您打算放置空气净化器的房间高度</h4></a>
+  <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
+    <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h4>您期望房间内空气达到的净化级别</h4>
-  </div>
-  <div class="panel-body">
-    <div class="list-group">
-      <a class="list-group-item {{classOfCycleItem(cycle)}}" ng-click="selectCycle(cycle)" ng-repeat="cycle in listOfCycle">{{cycle.label}}
-        <i ng-show="cycle.value == params.cycle" class="pull-right fa fa-check"></i></a>
-    </div>
-  </div>
+<div class="list-group">
+  <a class="list-group-item list-header"><h4>您期望房间内空气达到的净化级别</h4></a>
+  <a class="list-group-item {{classOfCycleItem(cycle)}}" ng-click="selectCycle(cycle)" ng-repeat="cycle in listOfCycle">{{cycle.label}}
+    <i ng-show="cycle.value == params.cycle" class="pull-right fa fa-check"></i></a>
 </div>
 
 <div><a href="#/products" class="btn btn-success btn-block" role="button">推荐一下</a></div>
