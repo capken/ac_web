@@ -11,7 +11,7 @@ class Product < ActiveRecord::Base
 end
 
 before do
-  sleep 0.5
+  #sleep 0.5
 end
 
 get '/' do
