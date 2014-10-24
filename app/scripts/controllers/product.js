@@ -15,10 +15,23 @@ angular.module('airCleanersWebApp')
 
   });
 
+  $scope.navTitle = function(subTitle) {
+    if($scope.product) {
+      return $scope.product.brand + ' - ' + $scope.product.model +
+        (angular.isDefined(subTitle) ? ' ' + subTitle : '');
+    } else {
+      return '';
+    }
+  };
+
   $scope.ahamText = function() {
-    return $scope.product.aham_verified ? 
-      '此数值通过美国AHAM官方认证，可信度很高' :
-      '此数值来自于厂商官方网站，可信度一般';
+    if($scope.product) {
+      return $scope.product.aham_verified ? 
+        '此数值通过美国AHAM官方认证，可信度很高' :
+        '此数值来自于厂商官方网站，可信度一般';
+    } else {
+      return '';
+    }
   };
 
   $scope.cyclesCountRange = function() {

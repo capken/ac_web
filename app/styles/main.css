@@ -114,3 +114,12 @@ a.list-content {
 .loading {
   text-align: center;
 }
+
+.panel-body select {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.breadcrumb {
+  font-size: 16px;
+}
