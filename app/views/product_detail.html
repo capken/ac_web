@@ -6,7 +6,7 @@
   <div ng-hide="product" class="loading"><i class="fa fa-cog fa-spin fa-2x"></i></div>
   <div ng-show="product" class="col-sm-12 product-content">
     <div id="product-image">
-      <img src="{{product.image_url}}">
+      <img class="img-thumbnail" src="{{product.image_url}}">
     </div>
     <div class="jumbotron">
       本产品由 <strong>{{product.brand}}</strong> 公司在 <strong>{{product.made_in}}</strong> 生产。 <strong>{{product.brand}}</strong> 是一家专业空气净化厂商。本产品采用{物理过滤}的净化技术，CADR值为 <strong>{{product.cadr_dust}}</strong> m³/h（{{ahamText()}}）。
