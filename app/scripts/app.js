@@ -32,7 +32,7 @@ angular.module('airCleanersWebApp', ['ngRoute'])
     );
 }])
 .constant('listOfRoomArea', [
-  { label: '小于10', value: '<10' },
+  { label: '小于10', value: '5:10' },
   { label: '10 - 15', value: '10:15' },
   { label: '15 - 20', value: '15:20' },
   { label: '20 - 25', value: '20:25' },
@@ -40,7 +40,7 @@ angular.module('airCleanersWebApp', ['ngRoute'])
   { label: '30 - 40', value: '30:40' },
   { label: '40 - 50', value: '40:50' },
   { label: '50 - 60', value: '50:60' },
-  { label: '大于60', value: '>60' }
+  { label: '大于60', value: '60:100' }
 ])
 .constant('listOfRoomHeight', [
   { label: '2.5－2.8米（如普通住宅）', value: '2.5:2.8' },
