@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141023143339) do
+ActiveRecord::Schema.define(version: 20141031095317) do
 
   create_table "products", force: true do |t|
     t.string  "brand"
@@ -36,5 +36,8 @@ ActiveRecord::Schema.define(version: 20141023143339) do
     t.string  "hash_id"
     t.string  "image_url"
   end
+
+  add_index "products", ["cadr_dust"], name: "index_products_on_cadr_dust"
+  add_index "products", ["hash_id"], name: "index_products_on_hash_id"
 
 end
