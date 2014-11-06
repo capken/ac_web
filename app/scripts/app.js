@@ -10,11 +10,11 @@ angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate'])
     .when('/nav', {
       templateUrl: 'views/nav.html'
     })
-    .when('/recommend/:step', {
+    .when('/recommend/step/:step', {
       templateUrl: 'views/recommend.html',
       controller: 'RecommendCtrl'
     })
-    .when('/select/:selection', {
+    .when('/select/:selection/step/:step', {
       templateUrl: 'views/select.html',
       controller: 'SelectCtrl'
     })
@@ -48,7 +48,7 @@ angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate'])
   { label: '3.8~4.8 m（如别墅首层或复式住宅）', value: '3.8:4.8' }
 ])
 .constant('listOfCycle', [
-  { label: '“优秀” - 洁净空气的换气量为5次/小时', value: 5 },
-  { label: '“良好” - 洁净空气的换气量为4次/小时', value: 4 },
-  { label: '“一般” - 洁净空气的换气量为3次/小时', value: 3 }
+  { label: '“优秀” - 洁净空气的换气量为 4.5~5.5 次/小时', value: '4.5:5.5' },
+  { label: '“良好” - 洁净空气的换气量为 3.5~4.5 次/小时', value: '3.5:4.5' },
+  { label: '“一般” - 洁净空气的换气量为 2.5~3.5 次/小时', value: '2.5:3.5' }
 ]);

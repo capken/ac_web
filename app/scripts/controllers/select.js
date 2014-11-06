@@ -5,6 +5,7 @@ angular.module('airCleanersWebApp')
       listOfRoomArea, listOfRoomHeight, listOfCycle) {
 
   $scope.params.reviewMode = $routeParams.selection;
+  $scope.currentStep = $routeParams.step;
 
   $scope.listOfRoomArea = listOfRoomArea;
   $scope.listOfRoomHeight = listOfRoomHeight;
@@ -23,21 +24,29 @@ angular.module('airCleanersWebApp')
     $scope.label.submit = '看看净化效果如何';
   }
 
+  $scope.pageTitle = function() {
+    if($scope.params.reviewMode === '1') {
+      return '求解惑';
+    } else if($scope.params.reviewMode === '2') {
+      return '求鉴定';
+    }
+  };
+
   $scope.selectArea = function(area) {
     $scope.params.area = area.value;
-  }
+  };
 
   $scope.classOfAreaButton = function(area) {
     return area.value === $scope.params.area ? 'btn-primary' : 'btn-default';
-  }
+  };
 
   $scope.selectHeight = function(height) {
     $scope.params.height = height.value;
-  }
+  };
 
   $scope.classOfHeightItem = function(height) {
     return height.value === $scope.params.height ? 'active' : '';
-  }
+  };
 
   $scope.allBrandsModels = [];
   $scope.brands = [];

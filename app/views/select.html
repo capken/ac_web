@@ -1,9 +1,9 @@
 <ol class="breadcrumb">
   <li><a href="#/nav">爱清新</a></li>
-  <li class="active">选择产品</li>
+  <li class="active">{{pageTitle()}}</li>
 </ol>
 
-<div class="panel panel-default">
+<div ng-show="currentStep == '1'" class="panel panel-default">
   <div class="panel-heading">
     <h4>{{label.model}}</h4>
   </div>
@@ -23,7 +23,21 @@
   </div>
 </div>
 
-<div class="panel panel-default">
+<div ng-show="currentStep == '1'" class="alert alert-warning">
+  <h4>小清新提示：</h4>
+  <p>
+    <ol>
+      <li>忘掉网上和厂家宣传的适用面积，按照国际标准绝大多数空气净化器的适用面积都夸大2倍以上。</li>
+      <li>不标明CADR的净化器厂家就是耍流氓，坚决不推荐。</li>
+      <li>房间的净化效果是你的鼻子感觉不出来的，需要用专业仪器测量。所以口碑和客户评价更多的是操控和体验，而不是真正的净化效果。</li>
+      <li>小清新不是权威，不保证准确，但是可以保证我们不收取任何厂家的费用只代表消费者的利益。</li>
+    </ol>
+  </p>
+</div>
+
+<p ng-show="currentStep == '1'"><a href="#/select/{{params.reviewMode}}/step/2" class="btn btn-success btn-block" ng-class="{disabled: models.length == 0}" role="button">朕知道了</a></p>
+
+<div ng-show="currentStep == '2'" class="panel panel-default">
   <div class="panel-heading">
     <h4>{{label.area}}</h4>
   </div>
@@ -32,10 +46,10 @@
   </div>
 </div>
 
-<div class="list-group">
+<div ng-show="currentStep == '2'" class="list-group">
   <a class="list-group-item list-header"><h4>{{label.height}}</h4></a>
   <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
     <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
 </div>
 
-<p><a href="#/products/{{params.productId}}/review" class="btn btn-success btn-block" ng-class="{disabled: models.length == 0}" role="button">{{label.submit}}</a></p>
+<p ng-show="currentStep == '2'"><a href="#/products/{{params.productId}}/review" class="btn btn-success btn-block" ng-class="{disabled: models.length == 0}" role="button">{{label.submit}}</a></p>

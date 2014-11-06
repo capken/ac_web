@@ -3,25 +3,43 @@
   <li class="active">求推荐</li>
 </ol>
 
-<div class="panel panel-default">
+<div ng-show="currentStep == '1'" class="panel panel-default">
   <div class="panel-heading">
-    <h4>您打算放置空气净化器的房间面积</h4>
+    <h4>您打算把空气净化器放在多大的房间？（房间面积 = 长 x 宽）</h4>
   </div>
   <div class="panel-body">
     <a class="tag-btn btn {{classOfAreaButton(area)}}" ng-click="selectArea(area)" ng-repeat="area in listOfRoomArea">{{area.label}} m²</a>
   </div>
 </div>
 
-<div class="list-group">
-  <a class="list-group-item list-header"><h4>您打算放置空气净化器的房间高度</h4></a>
+<div ng-show="currentStep == '1'" class="list-group">
+  <a class="list-group-item list-header"><h4>房间高度是多少？</h4></a>
   <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
     <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
 </div>
 
-<div class="list-group">
-  <a class="list-group-item list-header"><h4>您期望房间内空气达到的净化级别</h4></a>
+<div ng-show="currentStep == '1'">
+  <a href="#/recommend/step/2" class="btn btn-success btn-block" role="button">选好了</a>
+</div>
+
+<div ng-show="currentStep == '2'" class="list-group">
+  <a class="list-group-item list-header"><h4>您期望的空气净化级别是？</h4></a>
   <a class="list-group-item {{classOfCycleItem(cycle)}}" ng-click="selectCycle(cycle)" ng-repeat="cycle in listOfCycle">{{cycle.label}}
     <i ng-show="cycle.value == params.cycle" class="pull-right fa fa-check"></i></a>
 </div>
 
-<div><a href="#/products" class="btn btn-success btn-block" role="button">推荐一下</a></div>
+<div ng-show="currentStep == '2'" class="alert alert-warning">
+  <h4>小清新提示：</h4>
+  <p>同一款空气净化器放在不同大小的房间里，空气净化效率会不同。参照国际标准可以将空气的净化效果分为五个级别：</p>
+  <ul>
+    <li>“过度” - 适合土豪级客户：宁要最贵的，不要最适的。</li>
+    <li>“优秀” - 净化效果好，性价比可接受。经济条件很好的客户可选择。</li>
+    <li>“良好” - 优先推荐，在保证房间净化效果的前提下，性价比最优，可去除80%的污染物。</li>
+    <li>“一般” - 房间净化效率较低。预算较紧张的客户，可选择。</li>
+    <li>“心理安慰” - 基本无效，不建议购买。</li>
+  </ul>
+</div>
+
+<div ng-show="currentStep == '2'">
+  <a href="#/products" class="btn btn-success btn-block" role="button">开始推荐</a>
+</div>

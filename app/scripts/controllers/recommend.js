@@ -1,8 +1,10 @@
 'use strict';
 
 angular.module('airCleanersWebApp')
-.controller('RecommendCtrl', function ($scope, 
+.controller('RecommendCtrl', function ($scope, $routeParams,
       listOfRoomArea, listOfRoomHeight, listOfCycle) {
+
+  $scope.currentStep = $routeParams.step;
 
   $scope.listOfRoomArea = listOfRoomArea;
   $scope.listOfRoomHeight = listOfRoomHeight;
