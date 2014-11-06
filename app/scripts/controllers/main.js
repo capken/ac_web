@@ -31,6 +31,13 @@ angular.module('airCleanersWebApp')
     return maxArea * maxHeight;
   }
 
+  $scope.avgCycle = function() {
+    var cycleStr = $scope.params.cycle.split(':');
+    var minCycle = parseFloat(cycleStr[0]);
+    var maxCycle = parseFloat(cycleStr[1]);
+    return (minCycle + maxCycle) / 2;
+  };
+
   $scope.areaRangeText = function() {
     var matches = null;
     if(matches = $scope.params.area.match(/<(\d+)/)) {
@@ -55,13 +62,13 @@ angular.module('airCleanersWebApp')
 
   $scope.cycleText = function(count) {
     if(angular.isDefined(count)) {
-      if(count >= 5) {
+      if(count >= 4.5) {
         return '优秀';
-      } else if(4 <= count && count < 5) {
+      } else if(3.5 <= count && count < 4.5) {
         return '良好';
-      } else if(3 <= count && count < 4) {
+      } else if(2.5 <= count && count < 3.5) {
         return '一般';
-      } else if(count < 3) {
+      } else if(count < 2.5) {
         return '较差';
       }
     } else {

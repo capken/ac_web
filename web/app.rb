@@ -38,10 +38,12 @@ end
 get '/products' do
   min_area, max_area = params['area'].split(':').map(&:to_i)
   min_height, max_height = params['height'].split(':').map(&:to_f)
-  cycle = params['cycle'].to_i
+  min_cycle, max_cycle = params['cycle'].split(':').map(&:to_f)
 
-  min_cadr = min_area * min_height * cycle
-  max_cadr = max_area * max_height * cycle
+  avg_volume = (min_area*min_height + max_area*max_height)/2.0
+
+  min_cadr = avg_volume*min_cycle
+  max_cadr = avg_volume*max_cycle
 
   condition = "cadr_dust >= #{min_cadr} and cadr_dust <= #{max_cadr}"
 

@@ -31,7 +31,7 @@ angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate'])
       controller: 'ProductCtrl'
     })
     .otherwise({
-      redirectTo: '/nav'}
+      redirectTo: '/notice'}
     );
 }])
 .constant('listOfRoomArea', [
