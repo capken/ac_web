@@ -3,7 +3,7 @@
 angular.module('airCleanersWebApp')
 .controller('MainCtrl', function ($scope) {
   $scope.params = {
-    area: '10:15',
+    area: '10:20',
     height: '2.5:2.8',
     cycle: 4,
     brand: '布鲁雅尔',
