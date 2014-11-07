@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('airCleanersWebApp')
-.controller('MainCtrl', function ($scope) {
+.controller('MainCtrl', function ($scope, ratingToText) {
   $scope.params = {
     area: '10:20',
     height: '2.5:2.8',
@@ -60,20 +60,27 @@ angular.module('airCleanersWebApp')
     return $scope.params.height;
   }
 
-  $scope.cycleText = function(count) {
-    if(angular.isDefined(count)) {
-      if(count >= 4.5) {
-        return '优秀';
-      } else if(3.5 <= count && count < 4.5) {
-        return '良好';
-      } else if(2.5 <= count && count < 3.5) {
-        return '一般';
-      } else if(count < 2.5) {
-        return '较差';
-      }
-    } else {
-      return '';
+  $scope.ratingText = function(count) {
+    return angular.isDefined(count) ?
+      ratingToText[$scope.ratingOf(count)] : '';
+  }
+
+  $scope.ratingOf = function(cycles) {
+    var rating = '';
+
+    if(cycles < 2.5) {
+      rating = 'I';
+    } else if(2.5 <= cycles && cycles < 3.5) {
+      rating = 'II';
+    } else if(3.5 <= cycles && cycles < 4.5) {
+      rating = 'III';
+    } else if(4.5 <= cycles && cycles < 5.5) {
+      rating = 'IV';
+    } else if(cycles >= 5.5) {
+      rating = 'V';
     }
+
+    return rating;
   }
 
 });
