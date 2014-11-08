@@ -124,6 +124,9 @@ a.list-content {
   font-size: 15px;
 }
 
-.ngFade.ng-enter { transition: 0.1s linear all;  opacity: 0; }
+ul, ol {
+  padding-left: 20px;
+}
 
+.ngFade.ng-enter { transition: 0.1s linear all;  opacity: 0; }
 .ngFade.ng-enter-active { opacity: 1; }
