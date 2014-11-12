@@ -22,10 +22,8 @@ def image_of(image_strs)
 end
 
 Product.delete_all
-
-hashids = Hashids.new("airpal", 6)
-
 count = 0
+hashids = Hashids.new("iqingxin", 6)
 File.readlines(seeds_file).each do |input|
   record = JSON[input]
 
@@ -50,6 +48,7 @@ File.readlines(seeds_file).each do |input|
     p.etao_link = record['etao_link']
     p.score = score_of p
     p.image_url = image_of(record['image'])
+    p.is_pro_mfr = record['is_pro_mfr']
   end
 
   product.save

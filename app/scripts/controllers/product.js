@@ -25,6 +25,10 @@ angular.module('airCleanersWebApp')
     }
   };
 
+  $scope.MfrTypeText = function(isProMfr) {
+    return isProMfr ? '专业净化器厂商' : '家电厂商非专业净化器厂商';
+  };
+
   $scope.ahamText = function() {
     if($scope.product) {
       return $scope.product.aham_verified ? 

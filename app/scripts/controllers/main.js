@@ -6,8 +6,8 @@ angular.module('airCleanersWebApp')
     area: '10:20',
     height: '2.5:2.8',
     cycle: '3.5:4.5',
-    brand: '布鲁雅尔',
-    productId: 'vNbGGv',
+    brand: '布鲁雅尔/Blueair',
+    productId: 'wk8mB6',
     reviewMode: '1'
   };
 
