@@ -7,7 +7,7 @@
   <div ng-show="products" class="col-sm-6 col-md-4" ng-repeat="product in products">
     <div class="thumbnail">
       <a href="#/products/{{product.hash_id}}/detail">
-        <img class="product-image media-object img-rounded" src="{{product.image_url}}">
+        <img class="product-image media-object img-rounded" ng-src="{{product.image_url}}">
       </a>
       <div class="caption">
         <h5>

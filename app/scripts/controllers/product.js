@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('airCleanersWebApp')
-.controller('ProductCtrl', function ($scope, $http, $routeParams, $filter, ratingToSummary) {
+.controller('ProductCtrl', function ($scope, $http, $routeParams, $filter, $modal, ratingToSummary) {
 
   $scope.params.cycle = '3.5:4.5';
 
@@ -58,4 +58,26 @@ angular.module('airCleanersWebApp')
       ratingToSummary[$scope.ratingOf($scope.avgCount)] : '';
   };
 
+  $scope.open = function(url) {
+    var modalInstance = $modal.open({
+      templateUrl: 'dialog.html',
+      controller: 'RedirectCtrl',
+      size: 'lg',
+      resolve: {
+        url: function () {
+          return url;
+        }
+      }
+    });
+  };
+
+})
+.controller('RedirectCtrl', function($scope, $modalInstance, url) {
+  $scope.ok = function() {
+    window.location.assign(url);
+  };
+
+  $scope.cancel = function () {
+    $modalInstance.dismiss('cancel');
+  };
 });

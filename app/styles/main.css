@@ -86,7 +86,7 @@ body {
 }
 
 
-a.list-content {
+.list-group a, a.list-content {
   cursor: pointer;
 }
 

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate'])
+angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 .config(['$routeProvider', function($routeProvider) {
 
   $routeProvider

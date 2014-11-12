@@ -34,6 +34,7 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -49,6 +50,19 @@
     <script type="text/javascript">
       var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
       document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F1f12eff512e77048cbc646cff48d0a22' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/ng-template" id="dialog.html">
+      <div class="modal-header">
+        <h4 class="modal-title">友情提示</h4>
+      </div>
+      <div class="modal-body">
+        即将离开爱清新网站。如想返回本网站，苹果手机用户请点击左上角的返回，安卓用户请点击屏幕右下方的实体返回键。
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">继续</button>
+        <button class="btn btn-primary" ng-click="cancel()">取消</button>
+      </div>
     </script>
 
   </body>
