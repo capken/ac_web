@@ -63,7 +63,7 @@ angular.module('airCleanersWebApp')
     if($scope.models.length > 0) {
       $scope.params.productId = $scope.models[0].hash_id;
     }
-  }
+  };
 
   if($scope.currentStep === '1') {
     $http.get('all_brands_models').success(function(allBrandsModels) {

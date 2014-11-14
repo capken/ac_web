@@ -47,11 +47,11 @@ angular.module('airCleanersWebApp')
   $scope.isCycleAcceptable = function() {
     return angular.isDefined($scope.avgCount) ?
       ($scope.ratingOf($scope.avgCount) === 'III') : true;
-  }
+  };
 
   $scope.recommendationWords = function() {
     return '看看哪些产品真正适合您吧！';
-  }
+  };
 
   $scope.summary = function() {
     return angular.isDefined($scope.avgCount) ?

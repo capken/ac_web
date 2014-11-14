@@ -19,7 +19,7 @@ angular.module('airCleanersWebApp')
     var minHeight = parseFloat(minHeightStr);
 
     return minArea * minHeight;
-  }
+  };
 
   $scope.maxVolume = function() {
     var maxAreaStr = $scope.params.area.split(':').pop();
@@ -29,7 +29,7 @@ angular.module('airCleanersWebApp')
     var maxHeight = parseFloat(maxHeightStr);
 
     return maxArea * maxHeight;
-  }
+  };
 
   $scope.avgCycle = function() {
     var cycleStr = $scope.params.cycle.split(':');
@@ -49,7 +49,7 @@ angular.module('airCleanersWebApp')
     }
 
     return $scope.params.area;
-  }
+  };
 
   $scope.heightRangeText = function() {
     var matches = null;
@@ -58,12 +58,12 @@ angular.module('airCleanersWebApp')
     }
     
     return $scope.params.height;
-  }
+  };
 
   $scope.ratingText = function(count) {
     return angular.isDefined(count) ?
       ratingToText[$scope.ratingOf(count)] : '';
-  }
+  };
 
   $scope.ratingOf = function(cycles) {
     var rating = '';
@@ -81,6 +81,6 @@ angular.module('airCleanersWebApp')
     }
 
     return rating;
-  }
+  };
 
 });
