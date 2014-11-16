@@ -14,6 +14,14 @@ gulp.task('misc', function() {
       'app/images/*',
       'app/*.txt'], { base: 'app/' })
     .pipe(gulp.dest(dist));
+
+  gulp.src('bower_components/bootstrap/fonts/*', { 
+    base: 'bower_components/bootstrap/'
+  }).pipe(gulp.dest(dist));
+
+  gulp.src('bower_components/font-awesome/fonts/*', { 
+    base: 'bower_components/font-awesome/'
+  }).pipe(gulp.dest(dist));
 });
 
 gulp.task('lint', function() {
@@ -43,11 +51,11 @@ gulp.task('deploy', ['misc'], function() {
 
   gulp.src('app/**/*.html')
     .pipe(assets)
-    .pipe(gulpif('*.js', uglify()))
+    .pipe(gulpif('*.js', uglify({mangle: false})))
     .pipe(gulpif('*.css', minifyCss()))
     .pipe(assets.restore())
     .pipe(useref())
-    .pipe(minifyHtml())
+    .pipe(gulpif('*.html', minifyHtml({spare: true, empty: true})))
     .pipe(gulp.dest(dist));
 });
 
