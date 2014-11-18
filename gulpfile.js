@@ -7,27 +7,23 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     jshint = require('gulp-jshint'),
-    size = require('gulp-size');
-
-var opts = {
-  dist: 'web/public',
-  mode: 'development'
-}
+    size = require('gulp-size'),
+    argv = require('yargs').argv;
 
 var dist = 'web/public';
 
 gulp.task('images', function() {
   var images = gulp.src('app/images/*', { base: 'app/' });
-  if(opts.mode === 'development') {
-    images.pipe(gulp.dest(dist));
-  } else if(opts.mode === 'production') {
+  if(argv.production) {
     images.pipe(imagemin({
       progressive: true,
       //interlaced: true
-      svgoPlugins: [{removeViewBox: false}],
+      svgoPlugins: [ { removeViewBox: false } ],
       use: [pngquant()]
     }))
     .pipe(gulp.dest(dist));
+  } else {
+    images.pipe(gulp.dest(dist));
   }
 });
 
@@ -54,37 +50,31 @@ gulp.task('lint', function() {
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
-gulp.task('default', function() {
-  gulp.watch('app/**/*.js', ['lint', 'dev']);
-  gulp.watch('app/**/*.css', ['dev']);
-  gulp.watch('app/**/*.html', ['dev']);
-});
-
-gulp.task('dev', ['misc'], function() {
-  //opts.mode = 'development';
-
+gulp.task('build', ['misc'], function() {
   var assets = useref.assets();
 
   gulp.src('app/**/*.html')
     .pipe(assets)
+    .pipe(gulpif(
+      argv.production,
+      gulpif('*.js', uglify({mangle: false}))
+    ))
+    .pipe(gulpif(
+      argv.production,
+      gulpif('*.css', minifyCss())
+    ))
     .pipe(assets.restore())
     .pipe(useref())
-    .pipe(gulp.dest(dist));
-});
-
-  opts.mode = 'production';
-gulp.task('deploy', ['misc'], function() {
-
-  var assets = useref.assets();
-
-  gulp.src('app/**/*.html')
-    .pipe(assets)
-    .pipe(gulpif('*.js', uglify({mangle: false})))
-    .pipe(gulpif('*.css', minifyCss()))
-    .pipe(assets.restore())
-    .pipe(useref())
-    .pipe(gulpif('*.html', minifyHtml({spare: true, empty: true})))
+    .pipe(gulpif(
+      argv.production,
+      gulpif('*.html', minifyHtml({spare: true, empty: true}))
+    ))
     .pipe(gulp.dest(dist))
     .pipe(size());
 });
 
+gulp.task('default', function() {
+  gulp.watch('app/**/*.js', ['lint', 'build']);
+  gulp.watch('app/**/*.css', ['build']);
+  gulp.watch('app/**/*.html', ['build']);
+});
