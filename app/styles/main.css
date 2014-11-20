@@ -144,3 +144,7 @@ ul, ol {
   padding-bottom: 80px;
   height: auto;
 }
+
+#product-review {
+  font-size: 18px;
+}

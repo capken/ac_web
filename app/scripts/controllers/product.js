@@ -50,7 +50,7 @@ angular.module('airCleanersWebApp')
   };
 
   $scope.recommendationWords = function() {
-    return '看看哪些产品真正适合您吧！';
+    return '看看哪些产品真正适合您';
   };
 
   $scope.summary = function() {
