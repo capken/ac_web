@@ -3,7 +3,7 @@
   <li class="active">{{pageTitle()}}</li>
 </ol>
 
-<div ng-show="currentStep == '1'" class="panel panel-default">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h4>{{label.model}}</h4>
   </div>
@@ -23,7 +23,22 @@
   </div>
 </div>
 
-<div ng-show="currentStep == '1'" class="alert alert-warning">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4>{{label.area}}</h4>
+  </div>
+  <div class="panel-body">
+    <a class="tag-btn btn {{classOfAreaButton(area)}}" ng-click="selectArea(area)" ng-repeat="area in listOfRoomArea">{{area.label}} m²</a>
+  </div>
+</div>
+
+<div class="list-group">
+  <a class="list-group-item list-header"><h4>{{label.height}}</h4></a>
+  <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
+    <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
+</div>
+
+<div class="alert alert-warning">
   <h4>小清新提示：</h4>
   <p>
     <ol>
@@ -35,21 +50,4 @@
   </p>
 </div>
 
-<p ng-show="currentStep == '1'"><a href="#/select/{{params.reviewMode}}/step/2" class="btn btn-success btn-block" ng-class="{disabled: models.length == 0}" role="button">朕知道了</a></p>
-
-<div ng-show="currentStep == '2'" class="panel panel-default">
-  <div class="panel-heading">
-    <h4>{{label.area}}</h4>
-  </div>
-  <div class="panel-body">
-    <a class="tag-btn btn {{classOfAreaButton(area)}}" ng-click="selectArea(area)" ng-repeat="area in listOfRoomArea">{{area.label}} m²</a>
-  </div>
-</div>
-
-<div ng-show="currentStep == '2'" class="list-group">
-  <a class="list-group-item list-header"><h4>{{label.height}}</h4></a>
-  <a class="list-group-item {{classOfHeightItem(height)}}" ng-click="selectHeight(height)" ng-repeat="height in listOfRoomHeight">{{height.label}}
-    <i ng-show="height.value == params.height" class="pull-right fa fa-check"></i></a>
-</div>
-
-<p ng-show="currentStep == '2'"><a href="#/products/{{params.productId}}/review" class="btn btn-success btn-block" role="button">{{label.submit}}</a></p>
+<p><a href="#/products/{{params.productId}}/review" class="btn btn-success btn-block" role="button">{{label.submit}}</a></p>

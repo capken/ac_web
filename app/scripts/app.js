@@ -10,11 +10,11 @@ angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
     .when('/nav', {
       templateUrl: 'views/nav.html'
     })
-    .when('/recommend/step/:step', {
+    .when('/recommend', {
       templateUrl: 'views/recommend.html',
       controller: 'RecommendCtrl'
     })
-    .when('/select/:selection/step/:step', {
+    .when('/select/:selection', {
       templateUrl: 'views/select.html',
       controller: 'SelectCtrl'
     })
@@ -48,9 +48,11 @@ angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
   { label: '3.8~4.8 m（如别墅首层或复式住宅）', value: '3.8:4.8' }
 ])
 .constant('listOfCycle', [
-  { label: '“优秀” - 洁净空气的换气量为 4.5~5.5 次/小时', value: '4.5:5.5' },
-  { label: '“良好” - 洁净空气的换气量为 3.5~4.5 次/小时', value: '3.5:4.5' },
-  { label: '“一般” - 洁净空气的换气量为 2.5~3.5 次/小时', value: '2.5:3.5' }
+  { label: '优秀 - 洁净空气的换气次数为4.5~5.5 次/小时', value: '4.5:5.5' },
+  { label: '良好 - 洁净空气的换气次数为3.5~4.5 次/小时', value: '3.5:4.5' },
+  { label: '一般 - 洁净空气的换气次数为2.5~3.5 次/小时', value: '2.5:3.5' },
+  { label: '过度 - 洁净空气的换气次数大于5.5 次/小时', value: '5.5:99' },
+  { label: '心里安慰 - 洁净空气的换气次数小于2.5 次/小时', value: '0.0:2.5' },
 ])
 .constant('ratingToText', {
   'I'   : '较差',

@@ -47,7 +47,7 @@ get '/products' do
 
   condition = "cadr_dust >= #{min_cadr} and cadr_dust <= #{max_cadr}"
 
-  products = Product.where(condition.to_s).sample(15)
+  products = Product.where(condition.to_s).order('cadr_dust DESC')
 
   json products
 end

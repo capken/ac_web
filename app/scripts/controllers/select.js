@@ -65,17 +65,15 @@ angular.module('airCleanersWebApp')
     }
   };
 
-  if($scope.currentStep === '1') {
-    $http.get('all_brands_models').success(function(allBrandsModels) {
-      $scope.allBrandsModels = allBrandsModels;
+  $http.get('all_brands_models').success(function(allBrandsModels) {
+    $scope.allBrandsModels = allBrandsModels;
 
-      angular.forEach(allBrandsModels, function(item, index) {
-        if($scope.brands.indexOf(item.brand) < 0) {
-          $scope.brands.push(item.brand);
-        }
-      });
-
-      $scope.filterModels();
+    angular.forEach(allBrandsModels, function(item, index) {
+      if($scope.brands.indexOf(item.brand) < 0) {
+        $scope.brands.push(item.brand);
+      }
     });
-  }
+
+    $scope.filterModels();
+  });
 });
