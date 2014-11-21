@@ -1,15 +1,11 @@
 'use strict';
 
 angular.module('airCleanersWebApp')
-.controller('ProductsCtrl', function ($scope, $http) {
+.controller('ProductsCtrl', function ($scope, $http, $location) {
 
-  var params = [
-    'area=' + $scope.params.area,
-    'height=' + $scope.params.height,
-    'cycle=' + $scope.params.cycle
-  ].join('&');
+  var params = $location.search();
 
-  $http.get('products?' + params).success(function(products) {
+  $http.get('products', { params: params}).success(function(products) {
     $scope.products = products;
   });
 

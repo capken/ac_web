@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('airCleanersWebApp')
-.controller('MainCtrl', function ($scope, ratingToText) {
+.controller('MainCtrl', function ($scope, $location, ratingToText) {
   $scope.params = {
     area: '10:20',
     height: '2.5:2.8',
@@ -82,5 +82,14 @@ angular.module('airCleanersWebApp')
 
     return rating;
   };
+
+  $scope.navToProducts = function() {
+    $location.path('/products').search({
+      area: $scope.params.area,
+      height: $scope.params.height,
+      cycle: $scope.params.cycle
+    });
+  }
+
 
 });

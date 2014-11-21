@@ -148,3 +148,7 @@ ul, ol {
 #product-review {
   font-size: 18px;
 }
+
+.product-title {
+  height: 3em;
+}

@@ -12,6 +12,6 @@
 </div>
 
 <div>
-  <a ng-hide="isCycleAcceptable()" href="#/products" class="btn btn-primary btn-block" role="button">{{recommendationWords()}}</a>
+  <a ng-hide="isCycleAcceptable()" ng-click="navToProducts()" class="btn btn-primary btn-block" role="button">{{recommendationWords()}}</a>
   <a href="#/products/{{product.hash_id}}/detail" class="btn btn-primary btn-block" role="button">查看 {{product.brand + ' - ' + product.model}} 详情</a>
 </div>

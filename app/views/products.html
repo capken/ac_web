@@ -10,11 +10,8 @@
         <img class="product-image media-object img-rounded" ng-src="{{product.image_url}}">
       </a>
       <div class="caption">
-        <h5>
-          <a href="#/products/{{product.hash_id}}/detail">{{product.brand}}{{product.model}}</a>
-        </h5>
-        <b>CADR</b>: {{product.cadr_dust}} m³/h
-        <b>产地</b>: {{product.made_in}}
+        <div class="product-title"><a href="#/products/{{product.hash_id}}/detail">{{product.brand}} {{product.model}}</a></div>
+        <div><strong>CADR</strong>: {{product.cadr_dust}} m³/h <strong>产地</strong>: {{product.made_in ? product.made_in : '中国'}}</div>
       </div>
     </div>
   </div>
