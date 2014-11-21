@@ -37,7 +37,17 @@ gulp.task('fonts', function() {
   }).pipe(gulp.dest(dist));
 });
 
-gulp.task('misc', ['images', 'fonts'], function() {
+gulp.task('maps', function() {
+  gulp.src('bower_components/bootstrap/dist/css/*.map', { 
+    base: 'bower_components/bootstrap/dist/css/'
+  }).pipe(gulp.dest(dist + '/styles/'));
+
+  gulp.src('bower_components/angular-animate/angular-animate.min.js.map', { 
+    base: 'bower_components/angular-animate/'
+  }).pipe(gulp.dest(dist + '/scripts/'));
+});
+
+gulp.task('misc', ['images', 'fonts', 'maps'], function() {
   gulp.src([
       'app/favicon.ico',
       'app/data/*.json',
