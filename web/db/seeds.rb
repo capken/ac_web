@@ -49,6 +49,7 @@ File.readlines(seeds_file).each do |input|
     p.score = score_of p
     p.image_url = image_of(record['image'])
     p.is_pro_mfr = record['is_pro_mfr']
+    p.filter_type = record['filter_type']
   end
 
   product.save

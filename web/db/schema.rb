@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141112024144) do
+ActiveRecord::Schema.define(version: 20141121033349) do
 
   create_table "products", force: true do |t|
     t.string  "brand"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20141112024144) do
     t.string  "hash_id"
     t.string  "image_url"
     t.boolean "is_pro_mfr"
+    t.string  "filter_type"
   end
 
   add_index "products", ["cadr_dust"], name: "index_products_on_cadr_dust"
