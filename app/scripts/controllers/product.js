@@ -6,8 +6,12 @@ angular.module('airCleanersWebApp')
 
   var params = $location.search();
 
-  $scope.params.area = params.area;
-  $scope.params.height = params.height;
+  if(angular.isDefined(params.area)) {
+    $scope.params.area = params.area;
+  }
+  if(angular.isDefined(params.height)) {
+    $scope.params.height = params.height;
+  }
 
   $http.get('products/' + $routeParams.id).success(function(product) {
     $scope.product = product;

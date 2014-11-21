@@ -4,17 +4,17 @@
 </ol>
 
 <div class="row">
-  <div id="product-review" class="well">
-    <div ng-hide="product" class="loading"><i class="fa fa-cog fa-spin fa-2x"></i></div>
-    <div ng-show="product">
+  <div ng-hide="product" class="loading"><i class="fa fa-cog fa-spin fa-2x"></i></div>
+  <div ng-show="product" class="col-sm-12">
+    <div id="product-review" class="well">
       <p ng-show="product.cadr_dust">将 <b>{{product.brand + ' - ' + product.model}}</b> 空气净化器开到最高档，放在面积 <b>{{areaRangeText()}}</b> 平方米之间，高度 <b>{{heightRangeText()}}</b> 米之间的房间内，房间洁净空气的换气次数为 <b>{{cyclesCountRange()}}</b> 次/小时，空气净化效果 <b>{{ratingText(avgCount)}}</b> 。</p>
       <p ng-show="product.cadr_dust">{{summary()}}</p>
       <p ng-hide="product.cadr_dust">抱歉，没有找到<b>{{product.brand + ' - ' + product.model}}</b> 空气净化器的CADR值。</p>
     </div>
-  </div>
-  
-  <div class="list-group text-center">
-    <a ng-hide="isCycleAcceptable()" ng-click="navToProducts()" class="list-group-item">{{recommendationWords()}}</a>
-    <a href="#/products/{{product.hash_id}}/detail" class="list-group-item">查看<strong>{{product.brand + ' - ' + product.model}}</strong>详情</a>
+    
+    <div class="list-group text-center">
+      <a ng-hide="isCycleAcceptable()" ng-click="navToProducts()" class="list-group-item">{{recommendationWords()}}</a>
+      <a href="#/products/{{product.hash_id}}/detail" class="list-group-item">查看<strong>{{product.brand + ' - ' + product.model}}</strong>详情</a>
+    </div>
   </div>
 </div>

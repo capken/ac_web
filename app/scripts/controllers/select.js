@@ -11,6 +11,8 @@ angular.module('airCleanersWebApp')
   $scope.listOfRoomHeight = listOfRoomHeight;
   $scope.listOfCycle = listOfCycle;
 
+  console.log($scope.params);
+
   $scope.label = {
     area: '您打算放置空气净化器的房间面积',
     height: '您打算放置空气净化器的房间高度'

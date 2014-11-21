@@ -1,4 +1,4 @@
-<ol class="breadcrumb">
+<ol id="recommend" class="breadcrumb">
   <li><a href="#/nav">爱清新</a></li>
   <li class="active">求推荐</li>
 </ol>
@@ -19,7 +19,7 @@
 </div>
 
 <div class="list-group">
-  <a class="list-group-item list-header"><h4>您期望达到的空气净化效果？</h4></a>
+  <a class="list-group-item list-header"><h4>您期望达到的空气净化效果？<small>房间每小时洁净空气的换气次数</small></h4></a>
   <a class="list-group-item {{classOfCycleItem(cycle)}}" ng-click="selectCycle(cycle)" ng-repeat="cycle in listOfCycle">{{cycle.label}}
     <i ng-show="cycle.value == params.cycle" class="pull-right fa fa-check"></i></a>
 </div>

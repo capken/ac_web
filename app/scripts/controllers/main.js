@@ -84,15 +84,19 @@ angular.module('airCleanersWebApp')
   };
 
   $scope.navToProducts = function(cycle) {
+    var paramsPair = {
+      area: $scope.params.area,
+      height: $scope.params.height
+    };
+
     if(angular.isUndefined(cycle)) {
-      cycle = bestCycle;
+      paramsPair.cycle = bestCycle;
+      paramsPair.isBestCycle = "true";
+    } else {
+      paramsPair.cycle = cycle;
     }
 
-    $location.path('/products').search({
-      area: $scope.params.area,
-      height: $scope.params.height,
-      cycle: cycle
-    });
+    $location.path('/products').search(paramsPair);
   }
 
   $scope.navToProduct = function() {
