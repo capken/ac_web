@@ -40,6 +40,7 @@ gulp.task('fonts', function() {
 gulp.task('misc', ['images', 'fonts'], function() {
   gulp.src([
       'app/favicon.ico',
+      'app/data/*.json',
       'app/*.txt'], { base: 'app/' })
     .pipe(gulp.dest(dist));
 });

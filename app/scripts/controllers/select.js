@@ -11,8 +11,6 @@ angular.module('airCleanersWebApp')
   $scope.listOfRoomHeight = listOfRoomHeight;
   $scope.listOfCycle = listOfCycle;
 
-  console.log($scope.params);
-
   $scope.label = {
     area: '您打算放置空气净化器的房间面积',
     height: '您打算放置空气净化器的房间高度'
@@ -67,7 +65,7 @@ angular.module('airCleanersWebApp')
     }
   };
 
-  $http.get('all_brands_models').success(function(allBrandsModels) {
+  $http.get('data/all_brands_models.json').success(function(allBrandsModels) {
     $scope.allBrandsModels = allBrandsModels;
 
     angular.forEach(allBrandsModels, function(item, index) {
