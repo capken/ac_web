@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('airCleanersWebApp')
-.controller('MainCtrl', function ($scope, $location, ratingToText) {
+.controller('MainCtrl', function ($scope, $location, ratingToText, bestCycle) {
   $scope.params = {
     area: '10:20',
     height: '2.5:2.8',
@@ -83,13 +83,25 @@ angular.module('airCleanersWebApp')
     return rating;
   };
 
-  $scope.navToProducts = function() {
+  $scope.navToProducts = function(cycle) {
+    if(angular.isUndefined(cycle)) {
+      cycle = bestCycle;
+    }
+
     $location.path('/products').search({
       area: $scope.params.area,
       height: $scope.params.height,
-      cycle: $scope.params.cycle
+      cycle: cycle
     });
   }
 
+  $scope.navToProduct = function() {
+    $location.path('/products/' + 
+      $scope.params.productId + '/review'
+    ).search({
+      area: $scope.params.area,
+      height: $scope.params.height
+    });
+  }
 
 });
