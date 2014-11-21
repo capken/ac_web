@@ -20,7 +20,7 @@ end
 
 get '/products/:id' do
   product = Product.find_by_hash_id(params[:id]) || {}
-  json product
+  json filter_properties(product, {})
 end
 
 get '/all_brands_models' do
@@ -49,5 +49,26 @@ get '/products' do
 
   products = Product.where(condition.to_s).order('cadr_dust DESC')
 
-  json products
+  json products.map { |product| filter_properties(product, :basic => true) }
+end
+
+def filter_properties(product, opts)
+  basic = {
+    :brand => product.brand,
+    :model => product.model,
+    :cadr_dust => product.cadr_dust,
+    :made_in => product.made_in,
+    :hash_id => product.hash_id,
+    :image_url => product.image_url,
+  }
+
+  extra = {
+    :aham_verified => product.aham_verified,
+    :reviews_link => product.reviews_link,
+    :etao_link => product.etao_link,
+    :is_pro_mfr => product.is_pro_mfr,
+    :filter_type => product.filter_type
+  }
+
+  return opts[:basic] ? basic : basic.merge(extra)
 end
