@@ -8,6 +8,8 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     jshint = require('gulp-jshint'),
     size = require('gulp-size'),
+    replace = require('gulp-replace'),
+    fs = require('fs'),
     argv = require('yargs').argv;
 
 var dist = 'web/public';
@@ -64,7 +66,24 @@ gulp.task('lint', function() {
 gulp.task('build', ['misc'], function() {
   var assets = useref.assets();
 
-  gulp.src('app/**/*.html')
+  gulp.src('app/*.html')
+    .pipe(replace(/<all-ng-template><\/all-ng-template>/, 
+      function(str) {
+        var contents = '';
+        var viewsRoot = 'app/views/';
+        var templates = fs.readdirSync(viewsRoot);
+
+        templates.forEach(function(template, index) {
+          var content = fs.readFileSync(viewsRoot + template, 'utf8');
+          contents += '\n<script type="text/ng-template" id="' + template + '">\n';
+          contents += content;
+          contents += '\n</script>\n';
+        });
+
+
+        return contents;
+      }
+    ))
     .pipe(assets)
     .pipe(gulpif(
       argv.production,

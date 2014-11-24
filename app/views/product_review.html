@@ -9,7 +9,7 @@
     <div id="product-review" class="well">
       <p ng-show="product.cadr_dust">将 <b>{{product.brand + ' - ' + product.model}}</b> 空气净化器开到最高档，放在面积 <b>{{areaRangeText()}}</b> 平方米之间，高度 <b>{{heightRangeText()}}</b> 米之间的房间内，房间洁净空气的换气次数为 <b>{{cyclesCountRange()}}</b> 次/小时，空气净化效果 <b>{{ratingText(avgCount)}}</b> 。</p>
       <p ng-show="product.cadr_dust">{{summary()}}</p>
-      <p ng-hide="product.cadr_dust">抱歉，没有找到<b>{{product.brand + ' - ' + product.model}}</b> 空气净化器的CADR值。</p>
+      <p ng-hide="product.cadr_dust">抱歉，<b>{{product.brand + ' - ' + product.model}}</b>空气净化器的CADR值隐藏得很深，我们没有找到它。对于这样的空气净化器，我们不推荐您购买。</p>
     </div>
     
     <div class="list-group text-center">
