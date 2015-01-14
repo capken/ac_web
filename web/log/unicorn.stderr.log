@@ -1,0 +1,1014 @@
+I, [2014-11-19T10:34:07.800370 #7920]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-19T10:34:07.800894 #7920]  INFO -- : worker=0 spawning...
+I, [2014-11-19T10:34:07.802012 #7920]  INFO -- : worker=1 spawning...
+I, [2014-11-19T10:34:07.804542 #7923]  INFO -- : worker=0 spawned pid=7923
+I, [2014-11-19T10:34:07.804849 #7923]  INFO -- : Refreshing Gem list
+I, [2014-11-19T10:34:07.808614 #7920]  INFO -- : master process ready
+I, [2014-11-19T10:34:07.825035 #7926]  INFO -- : worker=1 spawned pid=7926
+I, [2014-11-19T10:34:07.825360 #7926]  INFO -- : Refreshing Gem list
+I, [2014-11-19T10:34:09.152123 #7923]  INFO -- : worker=0 ready
+I, [2014-11-19T10:34:09.154241 #7926]  INFO -- : worker=1 ready
+I, [2014-11-19T10:35:43.108590 #7920]  INFO -- : reaped #<Process::Status: pid 7923 exit 0> worker=0
+I, [2014-11-19T10:35:43.108986 #7920]  INFO -- : reaped #<Process::Status: pid 7926 exit 0> worker=1
+I, [2014-11-19T10:35:43.109188 #7920]  INFO -- : master complete
+I, [2014-11-19T10:36:48.951020 #8000]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-19T10:36:48.951422 #8000]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-19T10:36:48.955982 #8000]  INFO -- : worker=0 spawning...
+I, [2014-11-19T10:36:48.957021 #8000]  INFO -- : worker=1 spawning...
+I, [2014-11-19T10:36:48.960455 #8003]  INFO -- : worker=0 spawned pid=8003
+I, [2014-11-19T10:36:48.960684 #8003]  INFO -- : Refreshing Gem list
+I, [2014-11-19T10:36:48.964491 #8000]  INFO -- : master process ready
+I, [2014-11-19T10:36:48.980625 #8006]  INFO -- : worker=1 spawned pid=8006
+I, [2014-11-19T10:36:48.980930 #8006]  INFO -- : Refreshing Gem list
+I, [2014-11-19T10:36:50.016258 #8006]  INFO -- : worker=1 ready
+I, [2014-11-19T10:36:50.017471 #8003]  INFO -- : worker=0 ready
+101.228.103.205 - - [19/Nov/2014 10:37:06] "GET /views/products.html HTTP/1.0" 200 927 0.0214
+101.228.103.205 - - [19/Nov/2014 10:37:06] "GET /products?area=10:20&height=2.5:2.8&cycle=3.5:4.5 HTTP/1.0" 200 9072 0.0951
+101.228.103.205 - - [19/Nov/2014 10:37:13] "GET /products/6e0Y4w HTTP/1.0" 200 611 0.0478
+101.228.103.205 - - [19/Nov/2014 10:37:17] "GET /all_brands_models HTTP/1.0" 200 25736 0.0600
+101.228.103.205 - - [19/Nov/2014 10:37:23] "GET /all_brands_models HTTP/1.0" 200 25736 0.0537
+101.228.103.205 - - [19/Nov/2014 10:37:28] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0075
+101.228.103.205 - - [19/Nov/2014 10:37:30] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0037
+101.228.103.205 - - [19/Nov/2014 10:37:31] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0036
+101.228.103.205 - - [19/Nov/2014 10:37:32] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0064
+I, [2014-11-19T10:43:29.672321 #8000]  INFO -- : reaped #<Process::Status: pid 8003 exit 0> worker=0
+I, [2014-11-19T10:43:29.672880 #8000]  INFO -- : reaped #<Process::Status: pid 8006 exit 0> worker=1
+I, [2014-11-19T10:43:29.673362 #8000]  INFO -- : master complete
+I, [2014-11-19T11:03:43.700636 #1149]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-19T11:03:43.701167 #1149]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-19T11:03:43.701334 #1149]  INFO -- : worker=0 spawning...
+I, [2014-11-19T11:03:43.702137 #1149]  INFO -- : worker=1 spawning...
+I, [2014-11-19T11:03:43.708470 #1149]  INFO -- : master process ready
+I, [2014-11-19T11:03:43.716992 #1152]  INFO -- : worker=0 spawned pid=1152
+I, [2014-11-19T11:03:43.717271 #1152]  INFO -- : Refreshing Gem list
+I, [2014-11-19T11:03:43.719162 #1154]  INFO -- : worker=1 spawned pid=1154
+I, [2014-11-19T11:03:43.723436 #1154]  INFO -- : Refreshing Gem list
+I, [2014-11-19T11:03:45.115947 #1154]  INFO -- : worker=1 ready
+I, [2014-11-19T11:03:45.117079 #1152]  INFO -- : worker=0 ready
+101.228.103.205 - - [19/Nov/2014 11:04:06] "GET /views/products.html HTTP/1.0" 304 - 0.0299
+101.228.103.205 - - [19/Nov/2014 11:04:06] "GET /products?area=10:20&height=2.5:2.8&cycle=3.5:4.5 HTTP/1.0" 200 9017 0.0662
+I, [2014-11-19T21:20:12.469716 #1149]  INFO -- : reaped #<Process::Status: pid 1152 exit 0> worker=0
+I, [2014-11-19T21:20:12.470363 #1149]  INFO -- : reaped #<Process::Status: pid 1154 exit 0> worker=1
+I, [2014-11-19T21:20:12.471000 #1149]  INFO -- : master complete
+I, [2014-11-19T21:20:15.640024 #3061]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-19T21:20:15.640417 #3061]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-19T21:20:15.640610 #3061]  INFO -- : worker=0 spawning...
+I, [2014-11-19T21:20:15.641560 #3061]  INFO -- : worker=1 spawning...
+I, [2014-11-19T21:20:15.650787 #3061]  INFO -- : master process ready
+I, [2014-11-19T21:20:15.676813 #3064]  INFO -- : worker=0 spawned pid=3064
+I, [2014-11-19T21:20:15.677893 #3064]  INFO -- : Refreshing Gem list
+I, [2014-11-19T21:20:15.684498 #3066]  INFO -- : worker=1 spawned pid=3066
+I, [2014-11-19T21:20:15.716093 #3066]  INFO -- : Refreshing Gem list
+I, [2014-11-19T21:20:16.969815 #3066]  INFO -- : worker=1 ready
+I, [2014-11-19T21:20:16.972273 #3064]  INFO -- : worker=0 ready
+116.251.221.250 - - [19/Nov/2014 21:21:03] "GET /views/products.html HTTP/1.0" 200 954 0.0307
+116.251.221.250 - - [19/Nov/2014 21:21:03] "GET /products?area=10:20&height=2.5:2.8&cycle=3.5:4.5 HTTP/1.0" 200 9227 0.0699
+116.251.221.250 - - [19/Nov/2014 21:21:12] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0457
+117.136.8.154 - - [19/Nov/2014 21:23:09] "GET /views/products.html HTTP/1.0" 200 954 0.0055
+117.136.8.154 - - [19/Nov/2014 21:23:10] "GET /products?area=10:20&height=2.5:2.8&cycle=4.5:5.5 HTTP/1.0" 200 9303 0.0114
+117.136.8.154 - - [19/Nov/2014 21:23:24] "GET /products?area=10:20&height=2.5:2.8&cycle=4.5:5.5 HTTP/1.0" 200 9093 0.0080
+117.136.8.154 - - [19/Nov/2014 21:23:32] "GET /products/RM5kvR HTTP/1.0" 200 552 0.0045
+117.136.8.154 - - [20/Nov/2014 01:14:22] "GET /all_brands_models HTTP/1.0" 200 25736 0.0569
+117.136.8.154 - - [20/Nov/2014 01:14:44] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0163
+117.136.8.154 - - [20/Nov/2014 01:15:24] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0103
+117.136.8.154 - - [20/Nov/2014 01:15:28] "GET /all_brands_models HTTP/1.0" 200 25736 0.0544
+117.136.8.154 - - [20/Nov/2014 01:15:29] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0042
+117.136.8.154 - - [20/Nov/2014 01:16:06] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0124
+117.136.8.154 - - [20/Nov/2014 01:16:12] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0102
+117.136.8.154 - - [20/Nov/2014 01:17:06] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0051
+117.144.214.230 - - [20/Nov/2014 02:29:20] "GET /views/products.html HTTP/1.0" 200 954 0.0062
+117.144.214.230 - - [20/Nov/2014 02:29:21] "GET /products?area=10:20&height=2.5:2.8&cycle=3.5:4.5 HTTP/1.0" 200 9008 0.0289
+117.144.214.230 - - [20/Nov/2014 02:29:30] "GET /products/wk8mB6 HTTP/1.0" 200 603 0.0103
+117.144.214.230 - - [20/Nov/2014 02:29:45] "GET /all_brands_models HTTP/1.0" 200 25736 0.0757
+117.144.214.230 - - [20/Nov/2014 02:30:04] "GET /products/q53zO6 HTTP/1.0" 200 570 0.0099
+117.144.214.230 - - [20/Nov/2014 02:30:24] "GET /products/q53zO6 HTTP/1.0" 200 570 0.0042
+117.136.8.116 - - [20/Nov/2014 23:00:16] "GET /views/products.html HTTP/1.0" 200 1037 0.0576
+117.136.8.116 - - [20/Nov/2014 23:00:17] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 9129 0.0459
+117.136.8.116 - - [20/Nov/2014 23:00:41] "GET /products/R1PNa6 HTTP/1.0" 200 635 0.0463
+117.136.8.116 - - [20/Nov/2014 23:01:00] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 9103 0.0113
+117.136.8.116 - - [20/Nov/2014 23:01:23] "GET /products/wGWePw HTTP/1.0" 200 586 0.0050
+117.136.8.116 - - [20/Nov/2014 23:01:33] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 9136 0.0222
+I, [2014-11-20T23:02:42.706328 #3061]  INFO -- : reaped #<Process::Status: pid 3064 exit 0> worker=0
+I, [2014-11-20T23:02:42.706905 #3061]  INFO -- : reaped #<Process::Status: pid 3066 exit 0> worker=1
+I, [2014-11-20T23:02:42.707130 #3061]  INFO -- : master complete
+I, [2014-11-20T23:02:54.196571 #24719]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-20T23:02:54.197240 #24719]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-20T23:02:54.197599 #24719]  INFO -- : worker=0 spawning...
+I, [2014-11-20T23:02:54.198994 #24719]  INFO -- : worker=1 spawning...
+I, [2014-11-20T23:02:54.205152 #24719]  INFO -- : master process ready
+I, [2014-11-20T23:02:54.212517 #24722]  INFO -- : worker=0 spawned pid=24722
+I, [2014-11-20T23:02:54.212851 #24722]  INFO -- : Refreshing Gem list
+I, [2014-11-20T23:02:54.215156 #24724]  INFO -- : worker=1 spawned pid=24724
+I, [2014-11-20T23:02:54.223518 #24724]  INFO -- : Refreshing Gem list
+I, [2014-11-20T23:02:55.414380 #24722]  INFO -- : worker=0 ready
+I, [2014-11-20T23:02:55.415734 #24724]  INFO -- : worker=1 ready
+/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:24719 (or pid=/home/allen/codes/ac_web/web/tmp/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	from /home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	from /home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	from /home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-11-20T23:03:21.927826 #24719]  INFO -- : reaped #<Process::Status: pid 24722 exit 0> worker=0
+I, [2014-11-20T23:03:21.928184 #24719]  INFO -- : reaped #<Process::Status: pid 24724 exit 0> worker=1
+I, [2014-11-20T23:03:21.928405 #24719]  INFO -- : master complete
+I, [2014-11-20T23:03:30.214465 #24819]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-20T23:03:30.214906 #24819]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-20T23:03:30.215193 #24819]  INFO -- : worker=0 spawning...
+I, [2014-11-20T23:03:30.220360 #24819]  INFO -- : worker=1 spawning...
+I, [2014-11-20T23:03:30.221489 #24819]  INFO -- : master process ready
+I, [2014-11-20T23:03:30.228347 #24822]  INFO -- : worker=0 spawned pid=24822
+I, [2014-11-20T23:03:30.228575 #24822]  INFO -- : Refreshing Gem list
+I, [2014-11-20T23:03:30.236178 #24825]  INFO -- : worker=1 spawned pid=24825
+I, [2014-11-20T23:03:30.236374 #24825]  INFO -- : Refreshing Gem list
+I, [2014-11-20T23:03:31.293172 #24822]  INFO -- : worker=0 ready
+I, [2014-11-20T23:03:31.294069 #24825]  INFO -- : worker=1 ready
+117.136.8.116 - - [20/Nov/2014 23:03:53] "GET /views/products.html HTTP/1.0" 304 - 0.0393
+117.136.8.116 - - [20/Nov/2014 23:03:54] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 18770 0.1028
+117.136.8.116 - - [20/Nov/2014 23:04:08] "GET /products/wEbX06 HTTP/1.0" 200 640 0.0581
+117.136.8.116 - - [20/Nov/2014 23:05:12] "GET /all_brands_models HTTP/1.0" 200 25913 0.0674
+117.136.8.116 - - [20/Nov/2014 23:05:53] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0120
+117.136.8.116 - - [20/Nov/2014 23:06:01] "GET /all_brands_models HTTP/1.0" 200 25913 0.0524
+117.136.8.116 - - [20/Nov/2014 23:06:04] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0036
+117.136.8.116 - - [21/Nov/2014 04:29:43] "GET /all_brands_models HTTP/1.0" 200 25913 0.0565
+117.136.8.116 - - [21/Nov/2014 04:29:54] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0260
+117.136.8.116 - - [21/Nov/2014 04:30:23] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0040
+117.136.8.116 - - [21/Nov/2014 04:30:31] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0045
+117.136.8.116 - - [21/Nov/2014 04:57:44] "GET /all_brands_models HTTP/1.0" 200 25913 0.0804
+117.136.8.116 - - [21/Nov/2014 04:57:55] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0177
+117.136.8.116 - - [21/Nov/2014 04:58:10] "GET /views/products.html HTTP/1.0" 200 1037 0.0036
+117.136.8.116 - - [21/Nov/2014 04:58:11] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 34223 0.0228
+117.136.8.116 - - [21/Nov/2014 05:07:01] "GET /views/products.html HTTP/1.0" 200 1037 0.0035
+117.136.8.116 - - [21/Nov/2014 05:07:02] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 21941 0.0149
+117.136.8.116 - - [21/Nov/2014 05:07:18] "GET /products/6xy91R HTTP/1.0" 200 639 0.0051
+117.136.8.116 - - [21/Nov/2014 05:07:45] "GET /all_brands_models HTTP/1.0" 200 25913 0.0373
+117.136.8.116 - - [21/Nov/2014 05:08:03] "GET /products/qdP3Aq HTTP/1.0" 200 643 0.0119
+117.136.8.116 - - [21/Nov/2014 05:08:08] "GET /all_brands_models HTTP/1.0" 200 25913 0.0482
+117.136.8.116 - - [21/Nov/2014 05:08:21] "GET /all_brands_models HTTP/1.0" 200 25913 0.0331
+117.136.8.116 - - [21/Nov/2014 05:08:24] "GET /all_brands_models HTTP/1.0" 200 25913 0.0358
+117.136.8.116 - - [21/Nov/2014 05:08:43] "GET /all_brands_models HTTP/1.0" 200 25913 0.0281
+117.136.8.116 - - [21/Nov/2014 05:08:46] "GET /all_brands_models HTTP/1.0" 200 25913 0.0241
+117.136.8.116 - - [21/Nov/2014 05:09:03] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0037
+117.136.8.116 - - [21/Nov/2014 05:09:12] "GET /products?area=40:50&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 1420 0.0043
+117.136.8.116 - - [21/Nov/2014 05:09:40] "GET /all_brands_models HTTP/1.0" 200 25913 0.0371
+117.136.8.116 - - [21/Nov/2014 05:09:48] "GET /products?area=40:50&cycle=4.5:5.5&height=2.8:3.8 HTTP/1.0" 200 2530 0.0041
+117.136.8.116 - - [21/Nov/2014 05:09:54] "GET /products/qWvA3R HTTP/1.0" 200 604 0.0055
+117.136.8.116 - - [21/Nov/2014 05:10:04] "GET /all_brands_models HTTP/1.0" 200 25913 0.0256
+117.136.8.116 - - [21/Nov/2014 06:16:05] "GET /all_brands_models HTTP/1.0" 200 25913 0.0458
+117.136.8.116 - - [21/Nov/2014 06:17:49] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0144
+117.136.8.116 - - [21/Nov/2014 06:17:57] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0048
+101.228.103.205 - - [21/Nov/2014 09:45:05] "GET /views/products.html HTTP/1.0" 200 1037 0.0096
+101.228.103.205 - - [21/Nov/2014 09:45:05] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 34223 0.0579
+101.228.103.205 - - [21/Nov/2014 09:46:33] "GET /products/6e0lOw HTTP/1.0" 200 556 0.0161
+101.228.103.205 - - [21/Nov/2014 09:46:54] "GET /products/6e0lOw HTTP/1.0" 200 556 0.0155
+101.228.103.205 - - [21/Nov/2014 09:47:21] "GET /all_brands_models HTTP/1.0" 200 25913 0.0307
+101.228.103.205 - - [21/Nov/2014 09:48:28] "GET /views/products.html HTTP/1.0" 200 1037 0.0062
+101.228.103.205 - - [21/Nov/2014 09:48:29] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 18770 0.0385
+101.228.103.205 - - [21/Nov/2014 09:48:34] "GET /products/wEbjy6 HTTP/1.0" 200 579 0.0129
+101.228.103.205 - - [21/Nov/2014 09:49:29] "GET /views/products.html HTTP/1.0" 304 - 0.0022
+101.228.103.205 - - [21/Nov/2014 09:49:29] "GET /products?area=10:20&cycle=2.5:3.5&height=2.8:3.8 HTTP/1.0" 200 19424 0.0138
+101.228.103.205 - - [21/Nov/2014 09:50:00] "GET /products?area=10:20&cycle=2.5:3.5&height=2.8:3.8 HTTP/1.0" 200 19424 0.0162
+101.228.103.205 - - [21/Nov/2014 09:59:08] "GET /all_brands_models HTTP/1.0" 200 25913 0.0723
+101.228.103.205 - - [21/Nov/2014 09:59:11] "GET /products/wGWxDw HTTP/1.0" 200 585 0.0159
+101.228.103.205 - - [21/Nov/2014 09:59:14] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 28271 0.0176
+221.224.170.66 - - [21/Nov/2014 10:03:24] "GET /views/products.html HTTP/1.0" 200 1037 0.0038
+221.224.170.66 - - [21/Nov/2014 10:03:24] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 34223 0.0178
+221.224.170.66 - - [21/Nov/2014 10:06:53] "GET /products/R1P0r6 HTTP/1.0" 200 558 0.0063
+221.224.170.66 - - [21/Nov/2014 10:07:14] "GET /products/6e0lOw HTTP/1.0" 200 556 0.0039
+221.224.170.66 - - [21/Nov/2014 10:19:11] "GET /views/products.html HTTP/1.0" 304 - 0.0053
+221.224.170.66 - - [21/Nov/2014 10:19:14] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 34223 0.0291
+I, [2014-11-21T10:38:37.887541 #24819]  INFO -- : reaped #<Process::Status: pid 24822 exit 0> worker=0
+I, [2014-11-21T10:38:37.888098 #24819]  INFO -- : reaped #<Process::Status: pid 24825 exit 0> worker=1
+I, [2014-11-21T10:38:37.888369 #24819]  INFO -- : master complete
+I, [2014-11-21T10:38:43.066822 #3728]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-21T10:38:43.071443 #3728]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-21T10:38:43.071717 #3728]  INFO -- : worker=0 spawning...
+I, [2014-11-21T10:38:43.073087 #3728]  INFO -- : worker=1 spawning...
+I, [2014-11-21T10:38:43.074243 #3731]  INFO -- : worker=0 spawned pid=3731
+I, [2014-11-21T10:38:43.074444 #3731]  INFO -- : Refreshing Gem list
+I, [2014-11-21T10:38:43.076279 #3728]  INFO -- : master process ready
+I, [2014-11-21T10:38:43.092388 #3734]  INFO -- : worker=1 spawned pid=3734
+I, [2014-11-21T10:38:43.092653 #3734]  INFO -- : Refreshing Gem list
+I, [2014-11-21T10:38:44.252227 #3734]  INFO -- : worker=1 ready
+I, [2014-11-21T10:38:44.261549 #3731]  INFO -- : worker=0 ready
+101.228.103.205 - - [21/Nov/2014 10:39:46] "GET /views/products.html HTTP/1.0" 200 1057 0.0271
+101.228.103.205 - - [21/Nov/2014 10:39:46] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5835 0.0559
+101.228.103.205 - - [21/Nov/2014 10:39:49] "GET /products/wGWADw HTTP/1.0" 200 422 0.0368
+101.228.103.205 - - [21/Nov/2014 10:39:58] "GET /all_brands_models HTTP/1.0" 200 25913 0.0394
+101.228.103.205 - - [21/Nov/2014 10:40:07] "GET /all_brands_models HTTP/1.0" 200 25913 0.0406
+101.228.103.205 - - [21/Nov/2014 10:40:10] "GET /all_brands_models HTTP/1.0" 200 25913 0.0486
+101.228.103.205 - - [21/Nov/2014 10:40:30] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0045
+101.228.103.205 - - [21/Nov/2014 10:40:33] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 10973 0.0118
+101.228.103.205 - - [21/Nov/2014 10:40:39] "GET /views/products.html HTTP/1.0" 304 - 0.0016
+101.228.103.205 - - [21/Nov/2014 10:40:40] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 10973 0.0116
+101.228.103.205 - - [21/Nov/2014 10:40:50] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 10973 0.0119
+101.228.103.205 - - [21/Nov/2014 10:40:53] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0046
+101.228.103.205 - - [21/Nov/2014 10:40:53] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0042
+101.228.103.205 - - [21/Nov/2014 10:40:57] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0077
+101.228.103.205 - - [21/Nov/2014 10:40:59] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 10973 0.0104
+101.228.103.205 - - [21/Nov/2014 10:41:03] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0037
+101.228.103.205 - - [21/Nov/2014 10:41:06] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0022
+101.228.103.205 - - [21/Nov/2014 10:41:08] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0060
+101.228.103.205 - - [21/Nov/2014 10:41:09] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 10973 0.0102
+101.228.103.205 - - [21/Nov/2014 10:41:15] "GET /products/qmyAgq HTTP/1.0" 200 363 0.0038
+101.228.103.205 - - [21/Nov/2014 10:41:17] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 10973 0.0100
+101.228.103.205 - - [21/Nov/2014 10:41:24] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0050
+101.228.103.205 - - [21/Nov/2014 10:41:30] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 10973 0.0095
+101.228.103.205 - - [21/Nov/2014 10:41:35] "GET /products/wb9ONq HTTP/1.0" 200 371 0.0036
+101.228.103.205 - - [21/Nov/2014 11:08:23] "GET /products/wb9ONq HTTP/1.0" 200 371 0.0478
+123.147.244.46 - - [21/Nov/2014 11:22:21] "GET /views/products.html HTTP/1.0" 200 1057 0.0061
+123.147.244.46 - - [21/Nov/2014 11:22:22] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5835 0.0212
+123.147.244.46 - - [21/Nov/2014 11:22:31] "GET /products/qdPxKq HTTP/1.0" 200 424 0.0103
+123.147.244.46 - - [21/Nov/2014 11:22:39] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5835 0.0085
+221.224.170.66 - - [21/Nov/2014 12:06:20] "GET /views/products.html HTTP/1.0" 200 1057 0.0626
+221.224.170.66 - - [21/Nov/2014 12:06:20] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 10973 0.0309
+221.224.170.66 - - [21/Nov/2014 12:06:34] "GET /products/6LBEdq HTTP/1.0" 200 371 0.0060
+101.228.103.205 - - [21/Nov/2014 21:43:34] "GET /views/products.html HTTP/1.0" 200 1057 0.0063
+101.228.103.205 - - [21/Nov/2014 21:43:35] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5835 0.0207
+101.228.103.205 - - [21/Nov/2014 21:43:45] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0144
+101.228.103.205 - - [21/Nov/2014 21:43:53] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0044
+101.228.103.205 - - [21/Nov/2014 21:44:03] "GET /products/qOz0nR HTTP/1.0" 200 390 0.0046
+101.228.103.205 - - [21/Nov/2014 21:44:13] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 5835 0.0096
+101.228.103.205 - - [21/Nov/2014 21:44:21] "GET /products/wEbjy6 HTTP/1.0" 200 358 0.0044
+117.136.8.122 - - [22/Nov/2014 00:29:23] "GET /views/products.html HTTP/1.0" 304 - 0.0048
+117.136.8.122 - - [22/Nov/2014 00:29:24] "GET /products?area=10:20&cycle=4.5:5.5&height=2.8:3.8 HTTP/1.0" 200 7792 0.0413
+117.136.8.122 - - [22/Nov/2014 00:29:41] "GET /products/wjD7NR HTTP/1.0" 200 371 0.0094
+117.136.8.122 - - [22/Nov/2014 01:35:29] "GET /products?area=10:20&cycle=4.5:5.5&height=2.8:3.8 HTTP/1.0" 200 7792 0.0195
+117.136.8.122 - - [22/Nov/2014 01:35:42] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0069
+117.136.8.122 - - [22/Nov/2014 01:35:51] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0054
+117.136.8.122 - - [22/Nov/2014 01:35:57] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 10973 0.0323
+117.136.8.122 - - [22/Nov/2014 01:36:17] "GET /products/Ran5eq HTTP/1.0" 200 310 0.0119
+117.136.8.122 - - [22/Nov/2014 01:36:28] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 10973 0.0146
+117.136.8.122 - - [22/Nov/2014 01:36:36] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0053
+117.136.8.122 - - [22/Nov/2014 01:36:45] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0051
+117.136.8.122 - - [22/Nov/2014 01:36:48] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0048
+117.136.8.122 - - [22/Nov/2014 01:36:59] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0046
+117.136.8.122 - - [22/Nov/2014 01:37:23] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0043
+101.228.103.205 - - [22/Nov/2014 04:06:58] "GET /products/wGWxDw HTTP/1.0" 200 346 0.0183
+123.147.245.122 - - [24/Nov/2014 02:18:39] "GET /views/products.html HTTP/1.0" 200 1057 0.0177
+123.147.245.122 - - [24/Nov/2014 02:18:40] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5835 0.0475
+123.147.245.122 - - [24/Nov/2014 02:19:03] "GET /products/qdPxKq HTTP/1.0" 200 424 0.0144
+123.147.245.122 - - [24/Nov/2014 02:21:07] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5835 0.0116
+123.147.245.122 - - [24/Nov/2014 02:21:22] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0054
+123.147.245.122 - - [24/Nov/2014 02:21:54] "GET /products/6gBPxw HTTP/1.0" 200 370 0.0055
+123.147.245.122 - - [24/Nov/2014 02:22:13] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 7644 0.0195
+123.147.245.122 - - [24/Nov/2014 02:22:34] "GET /products/wk8px6 HTTP/1.0" 200 410 0.0041
+123.147.245.122 - - [24/Nov/2014 02:26:37] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 7644 0.0091
+123.147.245.122 - - [24/Nov/2014 02:26:44] "GET /products/6gBPxw HTTP/1.0" 200 370 0.0042
+I, [2014-11-24T03:36:25.491761 #3728]  INFO -- : reaped #<Process::Status: pid 3731 exit 0> worker=0
+I, [2014-11-24T03:36:25.492465 #3728]  INFO -- : reaped #<Process::Status: pid 3734 exit 0> worker=1
+I, [2014-11-24T03:36:25.492828 #3728]  INFO -- : master complete
+I, [2014-11-24T03:36:30.494114 #1021]  INFO -- : unlinking existing socket=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock
+I, [2014-11-24T03:36:30.499722 #1021]  INFO -- : listening on addr=/home/allen/codes/ac_web/web/tmp/sockets/unicorn.sock fd=10
+I, [2014-11-24T03:36:30.500152 #1021]  INFO -- : worker=0 spawning...
+I, [2014-11-24T03:36:30.501937 #1021]  INFO -- : worker=1 spawning...
+I, [2014-11-24T03:36:30.504646 #1024]  INFO -- : worker=0 spawned pid=1024
+I, [2014-11-24T03:36:30.504955 #1024]  INFO -- : Refreshing Gem list
+I, [2014-11-24T03:36:30.508613 #1021]  INFO -- : master process ready
+I, [2014-11-24T03:36:30.525011 #1027]  INFO -- : worker=1 spawned pid=1027
+I, [2014-11-24T03:36:30.525447 #1027]  INFO -- : Refreshing Gem list
+I, [2014-11-24T03:36:31.827212 #1027]  INFO -- : worker=1 ready
+I, [2014-11-24T03:36:31.828475 #1024]  INFO -- : worker=0 ready
+180.159.75.57 - - [24/Nov/2014 04:28:30] "GET /views/products.html HTTP/1.0" 200 1057 0.0522
+NoMethodError - undefined method `split' for nil:NilClass:
+	/home/allen/codes/ac_web/web/app.rb:39:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+180.159.75.57 - - [24/Nov/2014 04:28:30] "GET /products HTTP/1.0" 500 154731 0.1384
+116.251.221.250 - - [24/Nov/2014 05:04:07] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0826
+116.251.221.250 - - [24/Nov/2014 05:04:09] "GET /products/wDVVoR HTTP/1.0" 200 358 0.0635
+116.251.221.250 - - [24/Nov/2014 05:04:19] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0061
+NoMethodError - undefined method `brand' for {}:Hash:
+	/home/allen/codes/ac_web/web/app.rb:57:in `filter_properties'
+	/home/allen/codes/ac_web/web/app.rb:23:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+116.251.221.250 - - [24/Nov/2014 05:04:22] "GET /products/wGWxDw HTTP/1.0" 500 157471 0.0951
+NoMethodError - undefined method `brand' for {}:Hash:
+	/home/allen/codes/ac_web/web/app.rb:57:in `filter_properties'
+	/home/allen/codes/ac_web/web/app.rb:23:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+116.251.221.250 - - [24/Nov/2014 05:04:55] "GET /products/wGWxDw HTTP/1.0" 500 157695 0.1295
+116.251.221.250 - - [24/Nov/2014 05:05:01] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0042
+NoMethodError - undefined method `brand' for {}:Hash:
+	/home/allen/codes/ac_web/web/app.rb:57:in `filter_properties'
+	/home/allen/codes/ac_web/web/app.rb:23:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+116.251.221.250 - - [24/Nov/2014 05:05:07] "GET /products/wGWxDw HTTP/1.0" 500 157471 0.0724
+NoMethodError - undefined method `brand' for {}:Hash:
+	/home/allen/codes/ac_web/web/app.rb:57:in `filter_properties'
+	/home/allen/codes/ac_web/web/app.rb:23:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+116.251.221.250 - - [24/Nov/2014 05:05:17] "GET /products/qdP3Aq HTTP/1.0" 500 157471 0.0851
+116.251.221.250 - - [24/Nov/2014 05:05:21] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0017
+NoMethodError - undefined method `brand' for {}:Hash:
+	/home/allen/codes/ac_web/web/app.rb:57:in `filter_properties'
+	/home/allen/codes/ac_web/web/app.rb:23:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+116.251.221.250 - - [24/Nov/2014 05:05:36] "GET /products/wGWxDw HTTP/1.0" 500 157471 0.0676
+NoMethodError - undefined method `brand' for {}:Hash:
+	/home/allen/codes/ac_web/web/app.rb:57:in `filter_properties'
+	/home/allen/codes/ac_web/web/app.rb:23:in `block in <top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/home/allen/.rvm/gems/ruby-2.1.5/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `load'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/unicorn:23:in `<main>'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/home/allen/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+116.251.221.250 - - [24/Nov/2014 05:05:53] "GET /products/wGWxDw HTTP/1.0" 500 157695 0.0632
+116.251.221.250 - - [24/Nov/2014 05:08:02] "GET /all_brands_models HTTP/1.0" 200 25913 0.0446
+116.251.221.250 - - [24/Nov/2014 05:10:49] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0083
+116.251.221.250 - - [24/Nov/2014 05:10:53] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0044
+116.251.221.250 - - [24/Nov/2014 05:11:01] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0121
+116.251.221.250 - - [24/Nov/2014 05:11:09] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0102
+117.136.8.131 - - [24/Nov/2014 05:11:58] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0041
+117.136.8.131 - - [24/Nov/2014 05:12:11] "GET /products/RMbB5q HTTP/1.0" 200 390 0.0036
+117.136.8.131 - - [24/Nov/2014 05:12:18] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 8987 0.0135
+117.136.8.131 - - [24/Nov/2014 05:12:22] "GET /products/60G4kw HTTP/1.0" 200 389 0.0064
+117.136.8.131 - - [24/Nov/2014 05:13:04] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0017
+180.159.75.57 - - [24/Nov/2014 07:45:56] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0263
+180.159.75.57 - - [24/Nov/2014 07:46:08] "GET /products/qWvxyR HTTP/1.0" 200 409 0.0149
+180.159.75.57 - - [24/Nov/2014 07:51:40] "GET /products?area=5:10&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 214 0.0056
+180.159.75.57 - - [24/Nov/2014 07:55:49] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0125
+180.159.75.57 - - [24/Nov/2014 07:56:05] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0229
+180.159.75.57 - - [24/Nov/2014 07:56:11] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0080
+180.159.75.57 - - [24/Nov/2014 07:56:39] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0104
+180.159.75.57 - - [24/Nov/2014 07:56:48] "GET /products/wDVVoR HTTP/1.0" 200 358 0.0092
+180.159.75.57 - - [24/Nov/2014 07:56:56] "GET /products/w2POmR HTTP/1.0" 200 359 0.0043
+180.159.75.57 - - [24/Nov/2014 07:57:29] "GET /products/wEbnJ6 HTTP/1.0" 200 370 0.0040
+180.159.75.57 - - [24/Nov/2014 07:57:39] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0084
+180.159.75.57 - - [24/Nov/2014 07:57:49] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 8987 0.0140
+180.159.75.57 - - [24/Nov/2014 07:57:59] "GET /products/RZD1nw HTTP/1.0" 200 391 0.0044
+180.159.75.57 - - [24/Nov/2014 07:58:20] "GET /products/wk9lyR HTTP/1.0" 200 264 0.0033
+180.159.75.57 - - [24/Nov/2014 07:58:24] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 8987 0.0257
+180.159.75.57 - - [24/Nov/2014 07:58:29] "GET /products/wk9lyR HTTP/1.0" 200 264 0.0033
+180.159.75.57 - - [24/Nov/2014 07:58:36] "GET /products/wk9lyR HTTP/1.0" 200 264 0.0037
+180.159.75.57 - - [24/Nov/2014 07:58:41] "GET /products/wk9lyR HTTP/1.0" 200 264 0.0031
+180.159.75.57 - - [24/Nov/2014 07:59:03] "GET /products/wk9lyR HTTP/1.0" 200 264 0.0037
+180.159.75.57 - - [24/Nov/2014 07:59:20] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 7595 0.0085
+180.159.75.57 - - [24/Nov/2014 07:59:38] "GET /products/6pGG9w HTTP/1.0" 200 325 0.0034
+180.159.75.57 - - [24/Nov/2014 07:59:43] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 7595 0.0083
+180.159.75.57 - - [24/Nov/2014 08:00:14] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0044
+180.159.75.57 - - [24/Nov/2014 08:00:29] "GET /products/qPpKzq HTTP/1.0" 200 336 0.0034
+180.159.75.57 - - [24/Nov/2014 08:00:40] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0049
+180.159.75.57 - - [24/Nov/2014 08:00:57] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0051
+180.159.75.57 - - [24/Nov/2014 08:01:31] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0035
+180.159.75.57 - - [24/Nov/2014 08:02:23] "GET /products/RNJBVR HTTP/1.0" 200 424 0.0036
+180.159.75.57 - - [24/Nov/2014 08:02:23] "GET /products?area=50:99&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 729 0.0041
+180.159.75.57 - - [24/Nov/2014 08:02:31] "GET /products/RNJBVR HTTP/1.0" 200 424 0.0050
+180.159.75.57 - - [24/Nov/2014 08:02:40] "GET /products/RNJBVR HTTP/1.0" 200 424 0.0037
+180.159.75.57 - - [24/Nov/2014 08:02:41] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 8987 0.0441
+180.159.75.57 - - [24/Nov/2014 08:02:51] "GET /products?area=50:99&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 328 0.0076
+180.159.75.57 - - [24/Nov/2014 08:03:00] "GET /products/RNJBVR HTTP/1.0" 200 424 0.0058
+180.159.75.57 - - [24/Nov/2014 08:03:37] "GET /products/wk9NbR HTTP/1.0" 200 324 0.0132
+180.159.75.57 - - [24/Nov/2014 08:04:07] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0198
+180.159.75.57 - - [24/Nov/2014 08:04:10] "GET /products/wk9NbR HTTP/1.0" 200 324 0.0042
+180.159.75.57 - - [24/Nov/2014 08:04:25] "GET /products/RZDKPw HTTP/1.0" 200 359 0.0041
+180.159.75.57 - - [24/Nov/2014 08:04:27] "GET /products/wk9NbR HTTP/1.0" 200 324 0.0039
+180.159.75.57 - - [24/Nov/2014 08:04:38] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0039
+180.159.75.57 - - [24/Nov/2014 08:04:55] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0068
+180.159.75.57 - - [24/Nov/2014 08:04:57] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0038
+180.159.75.57 - - [24/Nov/2014 08:05:15] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0042
+180.159.75.57 - - [24/Nov/2014 08:05:25] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0041
+180.159.75.57 - - [24/Nov/2014 08:05:43] "GET /products/6oNK3w HTTP/1.0" 200 369 0.0077
+180.159.75.57 - - [24/Nov/2014 08:05:55] "GET /products/wDVmoR HTTP/1.0" 200 323 0.0064
+180.159.75.57 - - [24/Nov/2014 08:05:58] "GET /products?area=5:10&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 214 0.0054
+180.159.75.57 - - [24/Nov/2014 08:06:10] "GET /products/6oNK3w HTTP/1.0" 200 369 0.0040
+180.159.75.57 - - [24/Nov/2014 08:27:17] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0050
+180.159.75.57 - - [24/Nov/2014 08:27:23] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0175
+180.159.75.57 - - [24/Nov/2014 08:27:35] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0092
+180.159.75.57 - - [24/Nov/2014 08:30:03] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0063
+180.159.75.57 - - [24/Nov/2014 08:30:05] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0047
+180.159.75.57 - - [24/Nov/2014 08:30:31] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0041
+180.159.75.57 - - [24/Nov/2014 08:30:37] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0037
+180.159.75.57 - - [24/Nov/2014 08:31:01] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0038
+180.159.75.57 - - [24/Nov/2014 08:31:11] "GET /products/w2dnNR HTTP/1.0" 200 439 0.0036
+180.159.75.57 - - [24/Nov/2014 08:31:22] "GET /products/RZABr6 HTTP/1.0" 200 440 0.0108
+180.159.75.57 - - [24/Nov/2014 08:31:31] "GET /products/R1oPyw HTTP/1.0" 200 374 0.0093
+180.159.75.57 - - [24/Nov/2014 08:31:51] "GET /products/R1oPyw HTTP/1.0" 200 374 0.0041
+180.159.75.57 - - [24/Nov/2014 08:31:54] "GET /products/R1oPyw HTTP/1.0" 200 374 0.0037
+180.159.75.57 - - [24/Nov/2014 08:32:01] "GET /products/R1oPyw HTTP/1.0" 200 374 0.0046
+180.159.75.57 - - [24/Nov/2014 08:32:06] "GET /products/R1oPyw HTTP/1.0" 200 374 0.0034
+180.159.75.57 - - [24/Nov/2014 08:38:01] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0041
+180.159.75.57 - - [24/Nov/2014 08:38:12] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0038
+180.159.75.57 - - [24/Nov/2014 08:38:36] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0039
+101.228.103.205 - - [24/Nov/2014 09:06:51] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0490
+101.228.103.205 - - [24/Nov/2014 09:06:55] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0194
+101.228.103.205 - - [24/Nov/2014 09:07:15] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0145
+101.228.103.205 - - [24/Nov/2014 09:07:18] "GET /products/qdlM5q HTTP/1.0" 200 440 0.0060
+101.228.103.205 - - [24/Nov/2014 09:07:25] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0034
+101.228.103.205 - - [24/Nov/2014 09:08:03] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0041
+101.228.103.205 - - [24/Nov/2014 09:08:12] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 8672 0.0109
+101.228.103.205 - - [24/Nov/2014 09:08:33] "GET /products/qPp2zq HTTP/1.0" 200 363 0.0061
+101.228.103.205 - - [24/Nov/2014 09:08:45] "GET /products?area=10:20&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 8672 0.0094
+101.228.103.205 - - [24/Nov/2014 09:08:46] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0045
+101.228.103.205 - - [24/Nov/2014 09:17:22] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0058
+101.228.103.205 - - [24/Nov/2014 09:17:26] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0073
+101.228.103.205 - - [24/Nov/2014 09:17:30] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0063
+101.228.103.205 - - [24/Nov/2014 09:17:40] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0015
+101.228.103.205 - - [24/Nov/2014 09:17:48] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0035
+101.228.103.205 - - [24/Nov/2014 09:17:51] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0055
+101.228.103.205 - - [24/Nov/2014 09:18:09] "GET /products?area=10:20&cycle=3.5:4.5&height=3.8:4.8 HTTP/1.0" 200 8987 0.0101
+101.228.103.205 - - [24/Nov/2014 09:18:16] "GET /products/60G4kw HTTP/1.0" 200 389 0.0036
+101.228.103.205 - - [24/Nov/2014 09:36:03] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0079
+101.228.103.205 - - [24/Nov/2014 09:36:13] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0041
+101.228.103.205 - - [24/Nov/2014 09:37:32] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0034
+101.228.103.205 - - [24/Nov/2014 09:38:15] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0050
+101.228.103.205 - - [24/Nov/2014 09:38:22] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0039
+180.159.75.57, 120.204.200.42 - - [24/Nov/2014 10:08:28] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0077
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:09:10] "GET /products/wBWWA6 HTTP/1.0" 200 310 0.0163
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:09:52] "GET /products/wEbnJ6 HTTP/1.0" 200 370 0.0094
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:27:20] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0069
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:27:42] "GET /products/qdllVq HTTP/1.0" 200 387 0.0109
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:28:01] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0030
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:28:08] "GET /products/qdllVq HTTP/1.0" 200 387 0.0038
+180.159.75.57, 120.204.200.42 - - [24/Nov/2014 10:28:13] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0022
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:28:18] "GET /products/qdllVq HTTP/1.0" 200 387 0.0082
+180.159.75.57, 120.204.200.42 - - [24/Nov/2014 10:28:21] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0016
+180.159.75.57, 120.204.200.42 - - [24/Nov/2014 10:28:25] "GET /products/qdllVq HTTP/1.0" 200 387 0.0040
+180.159.75.57, 120.204.200.42 - - [24/Nov/2014 10:28:30] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0020
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:28:37] "GET /products/qdllVq HTTP/1.0" 200 387 0.0066
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 10:28:44] "GET /products/qdllVq HTTP/1.0" 200 387 0.0059
+180.159.75.57, 101.226.61.193 - - [24/Nov/2014 12:19:48] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0152
+180.159.75.57, 120.204.200.42 - - [24/Nov/2014 12:20:48] "GET /products?area=40:50&cycle=0.0:2.5&height=3.8:4.8 HTTP/1.0" 200 41054 0.0475
+140.206.88.198 - - [24/Nov/2014 21:20:07] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0201
+140.206.88.198 - - [24/Nov/2014 21:20:10] "GET /products/qWvxyR HTTP/1.0" 200 409 0.0121
+140.206.88.198 - - [24/Nov/2014 21:29:39] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0017
+140.206.88.198 - - [24/Nov/2014 21:29:48] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0048
+140.206.88.198 - - [24/Nov/2014 21:29:52] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0052
+106.37.28.165 - - [24/Nov/2014 22:19:38] "GET /products?area=20:30&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 4997 0.0147
+106.37.28.165 - - [24/Nov/2014 22:28:49] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0072
+106.37.28.165 - - [24/Nov/2014 22:29:38] "GET /products/wYmKKw HTTP/1.0" 200 361 0.0096
+117.136.8.105 - - [25/Nov/2014 00:44:34] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0294
+112.65.189.231 - - [25/Nov/2014 02:30:56] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0200
+112.65.189.231 - - [25/Nov/2014 02:31:21] "GET /products/wGWk3w HTTP/1.0" 200 361 0.0231
+112.65.189.231 - - [25/Nov/2014 02:32:24] "GET /products/wGWk3w HTTP/1.0" 200 361 0.0049
+112.65.189.231 - - [25/Nov/2014 02:32:44] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0103
+112.65.189.231 - - [25/Nov/2014 02:32:48] "GET /products/w2dPVR HTTP/1.0" 200 395 0.0038
+112.65.189.231 - - [25/Nov/2014 02:32:58] "GET /products/qllk1q HTTP/1.0" 200 358 0.0039
+112.65.189.231 - - [25/Nov/2014 02:33:07] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0035
+112.65.189.231 - - [25/Nov/2014 02:33:30] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0036
+112.65.189.231 - - [25/Nov/2014 02:34:31] "GET /products/qAQpQq HTTP/1.0" 200 389 0.0038
+112.65.189.231 - - [25/Nov/2014 02:34:40] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 5812 0.0079
+112.65.189.231 - - [25/Nov/2014 02:34:47] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0037
+112.97.35.125 - - [25/Nov/2014 06:33:17] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0137
+112.97.35.125 - - [25/Nov/2014 06:33:47] "GET /products?area=40:50&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 218 0.0187
+112.97.35.125 - - [25/Nov/2014 06:35:09] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0049
+112.97.35.125 - - [25/Nov/2014 06:36:25] "GET /products/wYmKKw HTTP/1.0" 200 361 0.0145
+123.155.153.54 - - [25/Nov/2014 06:36:52] "GET /products?area=30:40&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 1838 0.0117
+123.155.153.54 - - [25/Nov/2014 06:37:47] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0050
+123.155.153.54 - - [25/Nov/2014 06:38:20] "GET /products/qdPKeq HTTP/1.0" 200 361 0.0066
+123.155.153.54 - - [25/Nov/2014 06:38:34] "GET /products?area=50:99&cycle=3.5:4.5&height=2.8:3.8&isBestCycle=true HTTP/1.0" 200 328 0.0072
+123.155.153.54 - - [25/Nov/2014 06:38:48] "GET /products/qdPKeq HTTP/1.0" 200 361 0.0139
+180.170.119.64 - - [25/Nov/2014 06:55:01] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0104
+114.81.254.169 - - [25/Nov/2014 06:55:30] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0326
+114.81.254.169 - - [25/Nov/2014 06:55:48] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0048
+114.81.254.169 - - [25/Nov/2014 06:55:54] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0044
+114.242.250.175 - - [25/Nov/2014 06:55:59] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0053
+106.38.239.240 - - [25/Nov/2014 07:03:12] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0079
+106.38.239.240 - - [25/Nov/2014 07:04:15] "GET /products/wYmKKw HTTP/1.0" 200 361 0.0123
+106.38.239.240 - - [25/Nov/2014 07:05:53] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0180
+114.92.208.164, 101.226.68.141 - - [25/Nov/2014 07:06:00] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0046
+106.38.239.240 - - [25/Nov/2014 07:06:02] "GET /products/wYmKKw HTTP/1.0" 200 361 0.0047
+114.92.208.164, 101.226.68.141 - - [25/Nov/2014 07:06:12] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0056
+221.204.172.78, 123.151.153.35 - - [25/Nov/2014 07:10:36] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0053
+223.104.5.136 - - [25/Nov/2014 07:19:03] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0042
+223.104.5.136 - - [25/Nov/2014 07:19:10] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0039
+223.104.5.136 - - [25/Nov/2014 07:19:40] "GET /products/6nDDJq HTTP/1.0" 200 375 0.0040
+117.136.0.96 - - [25/Nov/2014 07:26:29] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 7595 0.0127
+117.136.0.96 - - [25/Nov/2014 07:26:35] "GET /products/R1PQ06 HTTP/1.0" 200 361 0.0066
+117.136.0.96 - - [25/Nov/2014 07:26:54] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 7595 0.0103
+117.136.38.250 - - [25/Nov/2014 07:38:02] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0201
+106.38.240.103 - - [25/Nov/2014 07:40:54] "GET /products/R1PQ06 HTTP/1.0" 200 361 0.0137
+106.38.240.103 - - [25/Nov/2014 07:41:01] "GET /products/R1PQ06 HTTP/1.0" 200 361 0.0053
+180.152.127.72 - - [25/Nov/2014 07:41:52] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0046
+59.124.158.235 - - [25/Nov/2014 07:50:29] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 7595 0.0170
+128.199.168.49 - - [25/Nov/2014 07:56:38] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0102
+128.199.168.49 - - [25/Nov/2014 07:56:57] "GET /products/R1ooaw HTTP/1.0" 200 431 0.0122
+211.162.34.204, 183.195.232.24 - - [25/Nov/2014 07:58:20] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0183
+124.79.95.203 - - [25/Nov/2014 08:17:09] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0073
+124.79.95.203 - - [25/Nov/2014 08:17:57] "GET /products/qAQpQq HTTP/1.0" 200 389 0.0130
+124.79.95.203 - - [25/Nov/2014 08:18:07] "GET /products/qAQpQq HTTP/1.0" 200 389 0.0084
+123.120.249.81 - - [25/Nov/2014 08:23:04] "GET /products?area=30:40&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 1838 0.0070
+123.120.249.81 - - [25/Nov/2014 08:23:33] "GET /products/RM5L5R HTTP/1.0" 200 421 0.0043
+123.120.249.81 - - [25/Nov/2014 08:24:11] "GET /products?area=30:40&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 1838 0.0059
+123.120.249.81 - - [25/Nov/2014 08:24:33] "GET /products?area=20:30&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 4997 0.0092
+123.120.249.81 - - [25/Nov/2014 08:26:15] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0135
+221.223.106.156 - - [25/Nov/2014 08:32:46] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0069
+221.223.106.156 - - [25/Nov/2014 08:32:53] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0138
+221.223.106.156 - - [25/Nov/2014 08:33:02] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0090
+221.223.106.156 - - [25/Nov/2014 08:33:21] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0050
+140.207.223.181 - - [25/Nov/2014 08:51:43] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0073
+101.228.103.205 - - [25/Nov/2014 08:59:08] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0090
+101.228.103.205 - - [25/Nov/2014 08:59:15] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0124
+101.228.103.205 - - [25/Nov/2014 08:59:40] "GET /products/w2dnNR HTTP/1.0" 200 439 0.0098
+123.120.221.120 - - [25/Nov/2014 09:07:31] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0076
+123.120.221.120 - - [25/Nov/2014 09:07:47] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0208
+123.120.221.120 - - [25/Nov/2014 09:07:57] "GET /products?area=10:20&cycle=3.5:4.5&height=3.8:4.8&isBestCycle=true HTTP/1.0" 200 8987 0.0184
+123.120.221.120 - - [25/Nov/2014 09:09:18] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0053
+222.205.101.72 - - [25/Nov/2014 09:42:44] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0118
+222.205.101.72 - - [25/Nov/2014 09:43:23] "GET /products/RNQ1M6 HTTP/1.0" 200 334 0.0124
+222.205.101.72 - - [25/Nov/2014 09:43:53] "GET /products/q43DAR HTTP/1.0" 200 335 0.0108
+222.205.101.72 - - [25/Nov/2014 09:44:12] "GET /products/q43DAR HTTP/1.0" 200 335 0.0099
+222.205.101.72 - - [25/Nov/2014 09:46:40] "GET /products/q43DAR HTTP/1.0" 200 335 0.0044
+183.192.235.162 - - [25/Nov/2014 09:58:45] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0104
+114.91.136.47 - - [25/Nov/2014 10:09:46] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0202
+114.91.136.47 - - [25/Nov/2014 10:10:15] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0122
+114.91.136.47 - - [25/Nov/2014 10:10:19] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0075
+117.136.8.67 - - [25/Nov/2014 10:42:05] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0070
+114.92.178.150 - - [25/Nov/2014 10:58:17] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0150
+122.112.115.121 - - [25/Nov/2014 12:01:04] "GET /products?area=40:50&cycle=4.5:5.5&height=3.8:4.8 HTTP/1.0" 200 328 0.0134
+122.112.115.121 - - [25/Nov/2014 12:01:21] "GET /products?area=40:50&cycle=4.5:5.5&height=2.8:3.8 HTTP/1.0" 200 729 0.0113
+122.112.115.121 - - [25/Nov/2014 12:02:04] "GET /products?area=40:50&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 218 0.0105
+122.112.115.121 - - [25/Nov/2014 12:02:17] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0051
+122.112.115.121 - - [25/Nov/2014 12:03:00] "GET /data/all_brands_models.json HTTP/1.0" 304 - 0.0016
+124.126.199.107 - - [25/Nov/2014 12:03:05] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0035
+122.112.115.121 - - [25/Nov/2014 12:03:38] "GET /products/wYmKKw HTTP/1.0" 200 361 0.0042
+122.112.115.121 - - [25/Nov/2014 12:03:50] "GET /products/wYmKKw HTTP/1.0" 200 361 0.0044
+124.126.199.107 - - [25/Nov/2014 12:04:36] "GET /products/q53a96 HTTP/1.0" 200 323 0.0042
+124.126.199.107 - - [25/Nov/2014 12:04:57] "GET /products/RrbN0R HTTP/1.0" 200 366 0.0064
+124.126.199.107 - - [25/Nov/2014 12:05:12] "GET /products/q53a96 HTTP/1.0" 200 323 0.0074
+124.126.199.107 - - [25/Nov/2014 12:05:40] "GET /products/qvGvOw HTTP/1.0" 200 441 0.0034
+124.126.199.107 - - [25/Nov/2014 12:05:57] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 8987 0.0102
+124.126.199.107 - - [25/Nov/2014 12:07:18] "GET /products/qvGvOw HTTP/1.0" 200 441 0.0036
+124.126.199.107 - - [25/Nov/2014 12:07:47] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0153
+114.92.178.150 - - [25/Nov/2014 12:08:43] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0147
+122.242.119.40 - - [25/Nov/2014 19:16:19] "GET /products?area=50:99&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 328 0.0124
+111.173.133.229 - - [25/Nov/2014 20:07:09] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0209
+111.173.133.229 - - [25/Nov/2014 20:07:16] "GET /products/wQ3QKR HTTP/1.0" 200 397 0.0116
+111.173.133.229 - - [25/Nov/2014 20:07:20] "GET /products?area=10:20&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 7006 0.0111
+114.111.167.159 - - [25/Nov/2014 20:11:40] "GET /products?area=40:50&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 218 0.0175
+114.111.167.159 - - [25/Nov/2014 20:13:16] "GET /products?area=30:40&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 7595 0.0116
+114.111.167.159 - - [25/Nov/2014 20:13:27] "GET /products?area=40:50&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 2261 0.0152
+124.126.192.75 - - [26/Nov/2014 08:28:49] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0249
+124.126.192.75 - - [26/Nov/2014 08:29:40] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0146
+124.126.192.75 - - [26/Nov/2014 08:29:43] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0046
+222.65.229.61 - - [26/Nov/2014 09:08:57] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0095
+115.160.247.42 - - [26/Nov/2014 09:54:05] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0191
+180.159.75.57, 101.226.61.193 - - [26/Nov/2014 10:02:05] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0099
+222.65.144.140 - - [26/Nov/2014 10:03:26] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0063
+222.65.144.140 - - [26/Nov/2014 10:03:41] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0100
+222.65.144.140 - - [26/Nov/2014 10:03:47] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0070
+124.78.212.128 - - [26/Nov/2014 10:09:21] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0048
+124.78.212.128 - - [26/Nov/2014 10:09:37] "GET /products/q4GMpR HTTP/1.0" 200 384 0.0048
+124.78.212.128 - - [26/Nov/2014 10:09:41] "GET /products?area=50:99&cycle=3.5:4.5&height=2.5:2.8&isBestCycle=true HTTP/1.0" 200 729 0.0054
+124.78.212.128 - - [26/Nov/2014 10:09:48] "GET /products/q4GMpR HTTP/1.0" 200 384 0.0046
+123.116.48.31 - - [26/Nov/2014 10:11:39] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0044
+123.124.183.252 - - [26/Nov/2014 11:09:26] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0216
+219.141.168.254 - - [26/Nov/2014 11:30:03] "GET /products/qWvxyR HTTP/1.0" 200 409 0.0151
+180.159.75.57 - - [26/Nov/2014 12:37:46] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0080
+180.159.75.57 - - [26/Nov/2014 12:38:08] "GET /products/q53a96 HTTP/1.0" 200 323 0.0128
+180.159.75.57 - - [26/Nov/2014 12:38:33] "GET /products/q53a96 HTTP/1.0" 200 323 0.0097
+180.159.75.57 - - [26/Nov/2014 12:39:18] "GET /products/qPpnnq HTTP/1.0" 200 470 0.0052
+180.159.75.57 - - [26/Nov/2014 12:39:55] "GET /products/qPBDL6 HTTP/1.0" 200 391 0.0042
+180.159.75.57 - - [26/Nov/2014 12:40:02] "GET /products/qPBDL6 HTTP/1.0" 200 391 0.0049
+125.33.67.176 - - [26/Nov/2014 13:08:08] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0167
+112.97.37.78 - - [26/Nov/2014 22:02:48] "GET /products?area=50:99&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 328 0.0121
+112.97.37.78 - - [26/Nov/2014 22:03:36] "GET /products/q5mmMq HTTP/1.0" 200 387 0.0164
+112.97.37.78 - - [26/Nov/2014 22:03:53] "GET /products?area=50:99&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 328 0.0040
+116.251.221.250 - - [30/Nov/2014 10:22:04] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0468
+58.247.2.210 - - [01/Dec/2014 07:05:45] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0446
+123.147.244.68 - - [03/Dec/2014 04:04:49] "GET /products?area=50:99&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 729 0.0387
+123.147.244.68 - - [03/Dec/2014 04:05:44] "GET /products?area=50:99&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 729 0.0179
+123.147.244.68 - - [03/Dec/2014 04:06:44] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0084
+123.147.244.68 - - [03/Dec/2014 04:07:20] "GET /products/qWvxyR HTTP/1.0" 200 409 0.0045
+123.147.244.68 - - [03/Dec/2014 04:07:42] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0079
+123.147.244.68 - - [03/Dec/2014 04:07:57] "GET /products/qWvxyR HTTP/1.0" 200 409 0.0040
+123.147.244.68 - - [03/Dec/2014 04:09:06] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0079
+125.112.0.239 - - [03/Dec/2014 04:09:45] "GET /products?area=5:10&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 214 0.0066
+123.147.245.66 - - [04/Dec/2014 21:23:36] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0423
+117.136.5.83 - - [07/Dec/2014 00:49:06] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0648
+117.136.5.83 - - [07/Dec/2014 00:49:40] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0200
+117.136.5.83 - - [07/Dec/2014 00:50:36] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0118
+123.147.245.109 - - [07/Dec/2014 00:53:42] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0058
+220.188.39.26 - - [08/Dec/2014 00:18:31] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0225
+220.188.39.26 - - [08/Dec/2014 00:18:53] "GET /products?area=50:99&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 729 0.0163
+218.0.69.100 - - [08/Dec/2014 09:42:47] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0204
+218.0.69.100 - - [08/Dec/2014 09:43:02] "GET /products?area=50:99&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 729 0.0183
+218.0.69.100 - - [08/Dec/2014 09:47:26] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0138
+218.0.69.100 - - [08/Dec/2014 09:47:53] "GET /products/wbAAGq HTTP/1.0" 200 378 0.0138
+218.0.69.100 - - [08/Dec/2014 09:48:35] "GET /products/wBJYWw HTTP/1.0" 200 439 0.0098
+140.207.23.222, 101.226.61.193 - - [10/Dec/2014 00:12:29] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0727
+140.207.23.222, 101.226.61.193 - - [10/Dec/2014 00:14:59] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0664
+140.207.23.222, 101.226.61.193 - - [10/Dec/2014 00:15:09] "GET /products/wb9KVq HTTP/1.0" 200 343 0.0706
+140.207.23.222, 101.226.61.193 - - [10/Dec/2014 00:16:05] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0240
+123.147.245.125 - - [10/Dec/2014 04:17:26] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0451
+106.187.55.151, 64.233.173.225 - - [14/Dec/2014 10:35:56] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.6653
+106.187.55.151, 64.233.173.225 - - [14/Dec/2014 10:35:59] "GET /products/RVgpDq HTTP/1.0" 200 403 0.0916
+106.187.55.151, 64.233.173.225 - - [14/Dec/2014 10:36:05] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0171
+113.239.93.54 - - [14/Dec/2014 11:44:08] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0407
+113.228.72.123 - - [14/Dec/2014 17:30:49] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0124
+113.228.72.123 - - [14/Dec/2014 17:31:13] "GET /products/wQ33KR HTTP/1.0" 200 342 0.0190
+113.228.72.123 - - [14/Dec/2014 17:31:39] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 8987 0.0325
+113.228.72.123 - - [14/Dec/2014 17:31:46] "GET /products/60G4kw HTTP/1.0" 200 389 0.0107
+113.228.72.123 - - [14/Dec/2014 17:32:22] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 8987 0.0228
+59.47.114.6 - - [15/Dec/2014 01:35:58] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0300
+59.47.114.6 - - [15/Dec/2014 01:36:09] "GET /products/wYmZBw HTTP/1.0" 200 437 0.0249
+59.47.114.6 - - [15/Dec/2014 01:36:23] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0161
+59.47.114.6 - - [15/Dec/2014 01:38:42] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0122
+59.47.114.6 - - [15/Dec/2014 01:38:57] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0117
+59.47.114.6 - - [15/Dec/2014 01:40:08] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0062
+59.47.114.6 - - [15/Dec/2014 01:54:06] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0195
+59.47.114.6 - - [15/Dec/2014 01:54:10] "GET /products/qWvxyR HTTP/1.0" 200 409 0.0052
+59.47.114.6 - - [15/Dec/2014 01:54:20] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0145
+59.47.114.6 - - [15/Dec/2014 01:54:25] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0082
+59.47.114.6 - - [15/Dec/2014 01:54:29] "GET /products/wb9KVq HTTP/1.0" 200 343 0.0039
+59.47.114.6 - - [15/Dec/2014 01:54:31] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0101
+180.159.195.76 - - [19/Dec/2014 10:44:04] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.2642
+180.159.195.76 - - [19/Dec/2014 10:46:18] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0705
+180.159.195.76 - - [19/Dec/2014 10:48:15] "GET /products/R8J7lw HTTP/1.0" 200 328 0.0258
+180.159.195.76 - - [19/Dec/2014 10:48:26] "GET /products/R8J7lw HTTP/1.0" 200 328 0.0827
+223.104.21.171 - - [19/Dec/2014 11:18:12] "GET /products?area=20:30&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 8987 0.0356
+122.96.45.170 - - [21/Dec/2014 02:50:48] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0312
+140.206.88.171 - - [21/Dec/2014 02:58:01] "GET /products?area=40:50&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 430 0.0274
+180.98.174.224 - - [21/Dec/2014 02:58:40] "GET /products?area=40:50&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 430 0.0347
+122.96.45.170 - - [21/Dec/2014 11:29:35] "GET /products?area=40:50&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 430 0.0174
+122.96.45.170 - - [21/Dec/2014 11:30:11] "GET /products?area=20:30&cycle=4.5:5.5&height=2.5:2.8 HTTP/1.0" 200 4997 0.0310
+122.96.45.170 - - [21/Dec/2014 11:30:59] "GET /products?area=40:50&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 430 0.0089
+180.159.75.57 - - [22/Dec/2014 20:43:55] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0749
+180.159.75.57 - - [22/Dec/2014 20:44:30] "GET /products/6LBNVq HTTP/1.0" 200 363 0.0511
+180.159.75.57 - - [22/Dec/2014 20:44:40] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0246
+122.96.43.77 - - [24/Dec/2014 20:38:27] "GET /products?area=40:50&cycle=3.5:4.5&height=2.8:3.8 HTTP/1.0" 200 430 0.0385
+163.204.80.21 - - [28/Dec/2014 06:13:45] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.1262
+140.206.88.89 - - [29/Dec/2014 23:13:07] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0249
+180.158.161.92 - - [04/Jan/2015 02:46:38] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.2248
+123.147.244.28 - - [04/Jan/2015 03:31:31] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0812
+123.147.244.28 - - [04/Jan/2015 03:31:55] "GET /products/wbAAGq HTTP/1.0" 200 378 0.0306
+123.147.244.28 - - [04/Jan/2015 03:32:20] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0933
+123.147.244.28 - - [04/Jan/2015 03:32:50] "GET /products/wbAAGq HTTP/1.0" 200 378 0.0152
+123.147.244.126 - - [05/Jan/2015 02:14:27] "GET /products?area=10:20&cycle=3.5:4.5&height=2.5:2.8 HTTP/1.0" 200 5812 0.0380
+117.89.51.134, 101.226.125.108 - - [05/Jan/2015 21:29:58] "GET /data/all_brands_models.json HTTP/1.0" 200 25913 0.0226
+117.89.51.134, 101.226.125.108 - - [05/Jan/2015 21:30:35] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0411
+117.89.51.134, 101.226.125.108 - - [05/Jan/2015 21:30:53] "GET /products?area=50:99&cycle=3.5:4.5&height=3.8:4.8&isBestCycle=true HTTP/1.0" 200 2 0.0187
+117.89.51.134, 101.226.125.108 - - [05/Jan/2015 21:31:23] "GET /products/wb9W7q HTTP/1.0" 200 390 0.0123

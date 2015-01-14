@@ -1,0 +1,404 @@
+D, [2014-11-19T10:37:06.851176 #8003] DEBUG -- :   [1m[36mProduct Load (17.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)[0m
+D, [2014-11-19T10:37:13.119427 #8006] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6e0Y4w' LIMIT 1[0m
+D, [2014-11-19T10:37:17.582082 #8003] DEBUG -- :   [1m[35mProduct Load (4.3ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-19T10:37:23.809430 #8006] DEBUG -- :   [1m[35mProduct Load (3.0ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-19T10:37:28.687198 #8003] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1[0m
+D, [2014-11-19T10:37:30.111370 #8006] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1[0m
+D, [2014-11-19T10:37:31.219264 #8003] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1
+D, [2014-11-19T10:37:32.200567 #8006] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1
+D, [2014-11-19T11:04:06.505826 #1152] DEBUG -- :   [1m[36mProduct Load (5.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)[0m
+D, [2014-11-19T21:21:03.585710 #3064] DEBUG -- :   [1m[36mProduct Load (18.3ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)[0m
+D, [2014-11-19T21:21:12.031538 #3066] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1[0m
+D, [2014-11-19T21:23:10.266464 #3066] DEBUG -- :   [1m[35mProduct Load (3.4ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)
+D, [2014-11-19T21:23:24.880269 #3064] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)
+D, [2014-11-19T21:23:32.984954 #3066] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RM5kvR' LIMIT 1[0m
+D, [2014-11-20T01:14:22.824798 #3064] DEBUG -- :   [1m[36mProduct Load (5.2ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-20T01:14:44.390849 #3066] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1
+D, [2014-11-20T01:15:24.091510 #3064] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1
+D, [2014-11-20T01:15:28.866311 #3066] DEBUG -- :   [1m[36mProduct Load (2.1ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-20T01:15:29.502802 #3064] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1[0m
+D, [2014-11-20T01:16:06.004625 #3066] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1
+D, [2014-11-20T01:16:12.205042 #3064] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1
+D, [2014-11-20T01:17:06.841990 #3066] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1[0m
+D, [2014-11-20T02:29:21.203532 #3066] DEBUG -- :   [1m[35mProduct Load (2.4ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)
+D, [2014-11-20T02:29:30.119081 #3064] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8mB6' LIMIT 1[0m
+D, [2014-11-20T02:29:45.089228 #3066] DEBUG -- :   [1m[36mProduct Load (3.2ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-20T02:30:04.426460 #3064] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q53zO6' LIMIT 1
+D, [2014-11-20T02:30:24.458420 #3066] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q53zO6' LIMIT 1
+D, [2014-11-20T23:00:17.579793 #3064] DEBUG -- :   [1m[36mProduct Load (9.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)[0m
+D, [2014-11-20T23:00:41.763591 #3066] DEBUG -- :   [1m[36mProduct Load (4.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1PNa6' LIMIT 1[0m
+D, [2014-11-20T23:01:00.468509 #3064] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)
+D, [2014-11-20T23:01:23.346038 #3066] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWePw' LIMIT 1
+D, [2014-11-20T23:01:33.775229 #3064] DEBUG -- :   [1m[36mProduct Load (2.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)[0m
+D, [2014-11-20T23:03:54.285637 #24825] DEBUG -- :   [1m[36mProduct Load (15.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-20T23:04:08.852256 #24822] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wEbX06' LIMIT 1[0m
+D, [2014-11-20T23:05:12.766654 #24825] DEBUG -- :   [1m[35mProduct Load (3.7ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-20T23:05:53.586737 #24822] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-20T23:06:01.010356 #24825] DEBUG -- :   [1m[36mProduct Load (2.0ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-20T23:06:04.114503 #24822] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T04:29:43.091165 #24822] DEBUG -- :   [1m[35mProduct Load (2.9ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T04:29:54.964690 #24825] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T04:30:23.782373 #24822] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T04:30:31.959019 #24825] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T04:57:44.723845 #24822] DEBUG -- :   [1m[35mProduct Load (3.0ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T04:57:55.571979 #24825] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T04:58:11.094069 #24825] DEBUG -- :   [1m[36mProduct Load (2.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T05:07:02.064635 #24825] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC
+D, [2014-11-21T05:07:18.402658 #24822] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6xy91R' LIMIT 1[0m
+D, [2014-11-21T05:07:45.445565 #24825] DEBUG -- :   [1m[36mProduct Load (2.3ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-21T05:08:03.326101 #24822] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdP3Aq' LIMIT 1
+D, [2014-11-21T05:08:08.041561 #24825] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T05:08:21.223935 #24822] DEBUG -- :   [1m[36mProduct Load (2.2ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-21T05:08:24.603170 #24825] DEBUG -- :   [1m[36mProduct Load (2.8ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-21T05:08:43.121086 #24822] DEBUG -- :   [1m[35mProduct Load (2.1ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T05:08:46.118520 #24825] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T05:09:03.642977 #24822] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T05:09:12.923700 #24825] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 528.5 and cadr_dust <= 679.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T05:09:40.682363 #24822] DEBUG -- :   [1m[35mProduct Load (1.5ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T05:09:48.621663 #24825] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 679.5 and cadr_dust <= 830.5)  ORDER BY cadr_dust DESC
+D, [2014-11-21T05:09:54.321859 #24822] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvA3R' LIMIT 1[0m
+D, [2014-11-21T05:10:04.461597 #24825] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-21T06:16:05.809000 #24822] DEBUG -- :   [1m[35mProduct Load (2.5ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T06:17:49.375663 #24825] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T06:17:57.934119 #24822] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T09:45:05.519204 #24825] DEBUG -- :   [1m[36mProduct Load (6.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T09:46:33.661377 #24822] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6e0lOw' LIMIT 1
+D, [2014-11-21T09:46:54.808585 #24825] DEBUG -- :   [1m[35mProduct Load (1.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6e0lOw' LIMIT 1
+D, [2014-11-21T09:47:21.550909 #24822] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-21T09:48:29.041888 #24822] DEBUG -- :   [1m[35mProduct Load (2.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-21T09:48:34.773709 #24825] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wEbjy6' LIMIT 1[0m
+D, [2014-11-21T09:49:29.613119 #24822] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 130.0 and cadr_dust <= 182.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T09:50:00.130157 #24825] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 130.0 and cadr_dust <= 182.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T09:59:08.735557 #24822] DEBUG -- :   [1m[35mProduct Load (23.7ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T09:59:11.916668 #24825] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T09:59:14.297431 #24822] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T10:03:24.574818 #24822] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T10:06:53.415651 #24825] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1P0r6' LIMIT 1
+D, [2014-11-21T10:07:14.549554 #24822] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6e0lOw' LIMIT 1[0m
+D, [2014-11-21T10:19:14.588548 #24822] DEBUG -- :   [1m[35mProduct Load (2.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T10:39:46.516762 #3731] DEBUG -- :   [1m[36mProduct Load (5.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T10:39:49.133846 #3734] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWADw' LIMIT 1[0m
+D, [2014-11-21T10:39:58.307026 #3731] DEBUG -- :   [1m[35mProduct Load (1.9ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T10:40:07.206692 #3734] DEBUG -- :   [1m[35mProduct Load (2.0ms)[0m  SELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"
+D, [2014-11-21T10:40:10.623592 #3731] DEBUG -- :   [1m[36mProduct Load (1.6ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-21T10:40:30.470342 #3734] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T10:40:33.583206 #3731] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T10:40:40.237909 #3734] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T10:40:50.334774 #3731] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T10:40:53.002189 #3734] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T10:40:57.810754 #3734] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T10:40:59.492319 #3731] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T10:41:03.457842 #3734] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-21T10:41:08.510135 #3734] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T10:41:09.878125 #3731] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T10:41:15.932927 #3734] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qmyAgq' LIMIT 1[0m
+D, [2014-11-21T10:41:17.084800 #3731] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-21T10:41:24.516107 #3734] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T10:41:30.861482 #3731] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T10:41:35.213246 #3734] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9ONq' LIMIT 1[0m
+D, [2014-11-21T11:08:23.923313 #3731] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9ONq' LIMIT 1
+D, [2014-11-21T11:22:22.295909 #3731] DEBUG -- :   [1m[36mProduct Load (1.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T11:22:31.377537 #3734] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdPxKq' LIMIT 1
+D, [2014-11-21T11:22:39.081212 #3731] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-21T12:06:20.544398 #3731] DEBUG -- :   [1m[36mProduct Load (3.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T12:06:34.622448 #3734] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6LBEdq' LIMIT 1[0m
+D, [2014-11-21T21:43:35.099767 #3734] DEBUG -- :   [1m[35mProduct Load (2.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-21T21:43:45.375019 #3731] DEBUG -- :   [1m[35mProduct Load (1.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-21T21:44:03.565744 #3731] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qOz0nR' LIMIT 1[0m
+D, [2014-11-21T21:44:13.021841 #3734] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-21T21:44:21.664398 #3731] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wEbjy6' LIMIT 1
+D, [2014-11-22T00:29:24.148192 #3734] DEBUG -- :   [1m[35mProduct Load (3.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.0 and cadr_dust <= 286.0)  ORDER BY cadr_dust DESC
+D, [2014-11-22T00:29:41.857707 #3731] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wjD7NR' LIMIT 1[0m
+D, [2014-11-22T01:35:29.685246 #3734] DEBUG -- :   [1m[36mProduct Load (2.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.0 and cadr_dust <= 286.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-22T01:35:51.996096 #3734] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-22T01:35:57.890362 #3731] DEBUG -- :   [1m[35mProduct Load (2.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-22T01:36:17.314138 #3734] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'Ran5eq' LIMIT 1[0m
+D, [2014-11-22T01:36:28.095348 #3731] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-22T01:36:36.795870 #3734] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-22T01:36:45.252428 #3731] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-22T01:36:48.953506 #3734] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-22T01:36:59.016623 #3731] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-22T01:37:23.531691 #3734] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-22T04:06:58.100480 #3734] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-24T02:18:40.490569 #3734] DEBUG -- :   [1m[35mProduct Load (14.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T02:19:03.718560 #3731] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdPxKq' LIMIT 1
+D, [2014-11-24T02:21:07.638331 #3734] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T02:21:54.226422 #3734] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6gBPxw' LIMIT 1
+D, [2014-11-24T02:22:13.089857 #3731] DEBUG -- :   [1m[36mProduct Load (2.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T02:22:34.473361 #3734] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk8px6' LIMIT 1[0m
+D, [2014-11-24T02:26:37.588800 #3731] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC
+D, [2014-11-24T02:26:44.609744 #3734] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6gBPxw' LIMIT 1
+D, [2014-11-24T05:04:07.681629 #1027] DEBUG -- :   [1m[36mProduct Load (7.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T05:04:09.712681 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wDVVoR' LIMIT 1[0m
+D, [2014-11-24T05:04:22.255728 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-24T05:04:55.279907 #1027] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-24T05:05:07.075325 #1027] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1[0m
+D, [2014-11-24T05:05:17.762065 #1024] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdP3Aq' LIMIT 1[0m
+D, [2014-11-24T05:05:36.863018 #1027] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-24T05:05:53.822015 #1024] DEBUG -- :   [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWxDw' LIMIT 1
+D, [2014-11-24T05:08:01.994114 #1027] DEBUG -- :   [1m[36mProduct Load (2.7ms)[0m  [1mSELECT "products"."hash_id", "products"."brand", "products"."model" FROM "products"[0m
+D, [2014-11-24T05:11:01.655815 #1024] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T05:11:09.789634 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T05:12:11.737618 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RMbB5q' LIMIT 1[0m
+D, [2014-11-24T05:12:18.244253 #1024] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC
+D, [2014-11-24T05:12:22.062713 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '60G4kw' LIMIT 1
+D, [2014-11-24T07:45:56.527354 #1024] DEBUG -- :   [1m[36mProduct Load (3.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T07:46:08.096686 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvxyR' LIMIT 1[0m
+D, [2014-11-24T07:51:40.583146 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 70.875 and cadr_dust <= 91.125)  ORDER BY cadr_dust DESC
+D, [2014-11-24T07:55:49.806713 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T07:56:05.327650 #1024] DEBUG -- :   [1m[36mProduct Load (8.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1[0m
+D, [2014-11-24T07:56:39.094610 #1024] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T07:56:48.477230 #1027] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wDVVoR' LIMIT 1[0m
+D, [2014-11-24T07:56:56.424440 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'w2POmR' LIMIT 1[0m
+D, [2014-11-24T07:57:29.820647 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wEbnJ6' LIMIT 1
+D, [2014-11-24T07:57:39.747860 #1024] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T07:57:49.800630 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T07:57:59.996945 #1024] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RZD1nw' LIMIT 1[0m
+D, [2014-11-24T07:58:20.671544 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9lyR' LIMIT 1
+D, [2014-11-24T07:58:24.969848 #1024] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC
+D, [2014-11-24T07:58:29.295530 #1027] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9lyR' LIMIT 1[0m
+D, [2014-11-24T07:58:36.758074 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9lyR' LIMIT 1[0m
+D, [2014-11-24T07:58:41.277485 #1027] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9lyR' LIMIT 1
+D, [2014-11-24T07:59:03.137996 #1024] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9lyR' LIMIT 1
+D, [2014-11-24T07:59:20.538081 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T07:59:38.118999 #1024] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6pGG9w' LIMIT 1[0m
+D, [2014-11-24T07:59:43.479288 #1027] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC
+D, [2014-11-24T08:00:14.694853 #1024] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-24T08:00:29.152409 #1027] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qPpKzq' LIMIT 1[0m
+D, [2014-11-24T08:00:40.552347 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T08:00:57.017609 #1027] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-24T08:02:23.567989 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RNJBVR' LIMIT 1[0m
+D, [2014-11-24T08:02:23.611246 #1024] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 703.85 and cadr_dust <= 904.9499999999999)  ORDER BY cadr_dust DESC
+D, [2014-11-24T08:02:31.425062 #1027] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RNJBVR' LIMIT 1
+D, [2014-11-24T08:02:40.251717 #1024] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RNJBVR' LIMIT 1[0m
+D, [2014-11-24T08:02:41.837744 #1027] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T08:02:51.270924 #1024] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 904.9499999999999 and cadr_dust <= 1106.05)  ORDER BY cadr_dust DESC
+D, [2014-11-24T08:03:00.549866 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RNJBVR' LIMIT 1
+D, [2014-11-24T08:03:37.287135 #1024] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9NbR' LIMIT 1[0m
+D, [2014-11-24T08:04:07.225376 #1027] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T08:04:10.337641 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9NbR' LIMIT 1
+D, [2014-11-24T08:04:25.052457 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RZDKPw' LIMIT 1
+D, [2014-11-24T08:04:27.772864 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wk9NbR' LIMIT 1[0m
+D, [2014-11-24T08:04:38.723761 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:04:55.658001 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-24T08:04:57.240019 #1027] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T08:05:15.253536 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:05:25.730330 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:05:43.038212 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6oNK3w' LIMIT 1
+D, [2014-11-24T08:05:55.687685 #1027] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wDVmoR' LIMIT 1
+D, [2014-11-24T08:05:58.738956 #1024] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 70.875 and cadr_dust <= 91.125)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T08:06:10.085963 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6oNK3w' LIMIT 1[0m
+D, [2014-11-24T08:27:23.512217 #1027] DEBUG -- :   [1m[35mProduct Load (2.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T08:27:35.333705 #1024] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T08:30:03.055030 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:30:05.810957 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:30:31.541547 #1027] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T08:30:37.567606 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T08:31:01.717624 #1027] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:31:11.325709 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'w2dnNR' LIMIT 1[0m
+D, [2014-11-24T08:31:22.728485 #1027] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RZABr6' LIMIT 1
+D, [2014-11-24T08:31:31.101762 #1024] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1oPyw' LIMIT 1
+D, [2014-11-24T08:31:51.342986 #1027] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1oPyw' LIMIT 1[0m
+D, [2014-11-24T08:31:54.637955 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1oPyw' LIMIT 1[0m
+D, [2014-11-24T08:32:01.970832 #1027] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1oPyw' LIMIT 1
+D, [2014-11-24T08:32:06.914268 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1oPyw' LIMIT 1
+D, [2014-11-24T08:38:12.117784 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T08:38:36.393642 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T09:06:51.216429 #1024] DEBUG -- :   [1m[35mProduct Load (1.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T09:06:55.635103 #1027] DEBUG -- :   [1m[35mProduct Load (2.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T09:07:15.257257 #1024] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T09:07:18.587926 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdlM5q' LIMIT 1[0m
+D, [2014-11-24T09:08:03.729953 #1027] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T09:08:12.904540 #1024] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC
+D, [2014-11-24T09:08:33.860158 #1027] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qPp2zq' LIMIT 1[0m
+D, [2014-11-24T09:08:45.335026 #1024] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.0 and cadr_dust <= 234.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T09:08:46.381069 #1027] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T09:17:26.903743 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T09:17:30.317804 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T09:17:48.945584 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T09:17:51.764124 #1024] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T09:18:09.796084 #1027] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T09:18:16.860158 #1024] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '60G4kw' LIMIT 1
+D, [2014-11-24T09:36:03.340508 #1027] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T09:36:13.206044 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1[0m
+D, [2014-11-24T09:38:15.381311 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T09:38:22.397916 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T10:09:10.515465 #1024] DEBUG -- :   [1m[36mProduct Load (1.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wBWWA6' LIMIT 1[0m
+D, [2014-11-24T10:09:52.763646 #1027] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wEbnJ6' LIMIT 1
+D, [2014-11-24T10:27:42.074089 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdllVq' LIMIT 1[0m
+D, [2014-11-24T10:28:08.811288 #1027] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdllVq' LIMIT 1
+D, [2014-11-24T10:28:18.147500 #1024] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdllVq' LIMIT 1
+D, [2014-11-24T10:28:25.537564 #1027] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdllVq' LIMIT 1[0m
+D, [2014-11-24T10:28:37.645790 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdllVq' LIMIT 1[0m
+D, [2014-11-24T10:28:44.442708 #1027] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdllVq' LIMIT 1
+D, [2014-11-24T12:19:48.139244 #1027] DEBUG -- :   [1m[36mProduct Load (1.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-24T12:20:48.137562 #1024] DEBUG -- :   [1m[35mProduct Load (5.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 0.0 and cadr_dust <= 490.0)  ORDER BY cadr_dust DESC
+D, [2014-11-24T21:20:07.866161 #1027] DEBUG -- :   [1m[35mProduct Load (1.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-24T21:20:10.145544 #1024] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvxyR' LIMIT 1[0m
+D, [2014-11-24T21:29:48.212841 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-24T21:29:52.015210 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-24T22:19:38.720184 #1027] DEBUG -- :   [1m[35mProduct Load (1.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 301.5 and cadr_dust <= 368.5)  ORDER BY cadr_dust DESC
+D, [2014-11-24T22:29:38.965587 #1027] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmKKw' LIMIT 1[0m
+D, [2014-11-25T00:44:34.097562 #1027] DEBUG -- :   [1m[35mProduct Load (2.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-25T02:30:56.253492 #1024] DEBUG -- :   [1m[36mProduct Load (1.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T02:31:21.340548 #1027] DEBUG -- :   [1m[36mProduct Load (2.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWk3w' LIMIT 1[0m
+D, [2014-11-25T02:32:24.678238 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wGWk3w' LIMIT 1
+D, [2014-11-25T02:32:44.333415 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC
+D, [2014-11-25T02:32:48.319294 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'w2dPVR' LIMIT 1[0m
+D, [2014-11-25T02:32:58.499181 #1027] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qllk1q' LIMIT 1[0m
+D, [2014-11-25T02:33:30.998061 #1027] DEBUG -- :   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-25T02:34:31.450080 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qAQpQq' LIMIT 1
+D, [2014-11-25T02:34:40.414351 #1027] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T02:34:47.567692 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1[0m
+D, [2014-11-25T06:33:17.297846 #1024] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-25T06:33:47.377425 #1027] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 540.0 and cadr_dust <= 660.0)  ORDER BY cadr_dust DESC
+D, [2014-11-25T06:36:25.259426 #1027] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmKKw' LIMIT 1[0m
+D, [2014-11-25T06:36:52.346253 #1024] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.75 and cadr_dust <= 514.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T06:38:20.817937 #1024] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdPKeq' LIMIT 1
+D, [2014-11-25T06:38:34.717512 #1027] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 903.3500000000001 and cadr_dust <= 1161.45)  ORDER BY cadr_dust DESC
+D, [2014-11-25T06:38:48.209714 #1024] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qdPKeq' LIMIT 1[0m
+D, [2014-11-25T06:55:30.796022 #1024] DEBUG -- :   [1m[35mProduct Load (18.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-25T06:55:54.339513 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-25T07:04:15.549159 #1027] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmKKw' LIMIT 1[0m
+D, [2014-11-25T07:05:53.752379 #1024] DEBUG -- :   [1m[35mProduct Load (2.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-25T07:06:02.243915 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmKKw' LIMIT 1[0m
+D, [2014-11-25T07:06:12.387705 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-25T07:10:36.609015 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-25T07:19:10.406208 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-25T07:19:40.603301 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6nDDJq' LIMIT 1[0m
+D, [2014-11-25T07:26:29.525737 #1024] DEBUG -- :   [1m[35mProduct Load (1.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC
+D, [2014-11-25T07:26:35.817869 #1027] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1PQ06' LIMIT 1
+D, [2014-11-25T07:26:54.551507 #1024] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T07:38:02.424500 #1027] DEBUG -- :   [1m[36mProduct Load (2.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T07:40:54.308674 #1024] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1PQ06' LIMIT 1
+D, [2014-11-25T07:41:01.976927 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1PQ06' LIMIT 1
+D, [2014-11-25T07:50:29.274000 #1027] DEBUG -- :   [1m[36mProduct Load (1.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T07:56:57.443175 #1027] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R1ooaw' LIMIT 1
+D, [2014-11-25T07:58:20.420278 #1024] DEBUG -- :   [1m[36mProduct Load (1.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T08:17:57.263869 #1024] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qAQpQq' LIMIT 1
+D, [2014-11-25T08:18:07.012896 #1027] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qAQpQq' LIMIT 1[0m
+D, [2014-11-25T08:23:04.098005 #1024] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.75 and cadr_dust <= 514.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T08:23:33.204244 #1027] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RM5L5R' LIMIT 1
+D, [2014-11-25T08:24:11.285945 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.75 and cadr_dust <= 514.25)  ORDER BY cadr_dust DESC
+D, [2014-11-25T08:24:33.342589 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 301.5 and cadr_dust <= 368.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T08:26:15.791342 #1024] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T08:32:53.696045 #1024] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-25T08:33:02.087252 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-25T08:33:21.058717 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-25T08:59:15.879708 #1027] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-25T08:59:40.949587 #1024] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'w2dnNR' LIMIT 1
+D, [2014-11-25T09:07:47.924766 #1024] DEBUG -- :   [1m[36mProduct Load (2.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-25T09:07:57.213100 #1027] DEBUG -- :   [1m[35mProduct Load (1.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC
+D, [2014-11-25T09:09:18.735966 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-25T09:43:23.506869 #1024] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RNQ1M6' LIMIT 1[0m
+D, [2014-11-25T09:43:53.000165 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q43DAR' LIMIT 1[0m
+D, [2014-11-25T09:44:12.676150 #1024] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q43DAR' LIMIT 1
+D, [2014-11-25T09:46:40.165277 #1027] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q43DAR' LIMIT 1
+D, [2014-11-25T10:09:46.497320 #1024] DEBUG -- :   [1m[36mProduct Load (2.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T10:10:15.879206 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1[0m
+D, [2014-11-25T10:10:19.371908 #1024] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-25T10:58:17.465267 #1024] DEBUG -- :   [1m[36mProduct Load (1.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T12:01:04.401615 #1027] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 882.0 and cadr_dust <= 1078.0)  ORDER BY cadr_dust DESC
+D, [2014-11-25T12:01:21.608738 #1024] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 679.5 and cadr_dust <= 830.5)  ORDER BY cadr_dust DESC
+D, [2014-11-25T12:02:04.215253 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 540.0 and cadr_dust <= 660.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T12:02:17.190595 #1024] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T12:03:38.670237 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmKKw' LIMIT 1
+D, [2014-11-25T12:03:50.821120 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmKKw' LIMIT 1
+D, [2014-11-25T12:04:36.347793 #1024] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q53a96' LIMIT 1[0m
+D, [2014-11-25T12:04:57.834680 #1027] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RrbN0R' LIMIT 1[0m
+D, [2014-11-25T12:05:12.496098 #1024] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q53a96' LIMIT 1
+D, [2014-11-25T12:05:40.737861 #1027] DEBUG -- :   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qvGvOw' LIMIT 1
+D, [2014-11-25T12:05:57.840364 #1024] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T12:07:18.310497 #1027] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qvGvOw' LIMIT 1[0m
+D, [2014-11-25T12:07:47.720104 #1024] DEBUG -- :   [1m[35mProduct Load (1.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC
+D, [2014-11-25T12:08:43.964591 #1027] DEBUG -- :   [1m[35mProduct Load (1.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-25T19:16:19.764716 #1024] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 904.9499999999999 and cadr_dust <= 1106.05)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T20:07:09.233563 #1027] DEBUG -- :   [1m[36mProduct Load (2.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T20:07:16.645856 #1024] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wQ3QKR' LIMIT 1
+D, [2014-11-25T20:07:20.945112 #1027] DEBUG -- :   [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 182.25 and cadr_dust <= 222.75)  ORDER BY cadr_dust DESC
+D, [2014-11-25T20:11:40.760047 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 540.0 and cadr_dust <= 660.0)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T20:13:16.390750 #1027] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 327.25 and cadr_dust <= 420.75)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-25T20:13:27.447907 #1024] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 420.0 and cadr_dust <= 540.0)  ORDER BY cadr_dust DESC
+D, [2014-11-26T08:28:49.548362 #1024] DEBUG -- :   [1m[36mProduct Load (2.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-26T08:29:43.774457 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-26T09:08:57.697333 #1024] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1[0m
+D, [2014-11-26T09:54:05.661258 #1024] DEBUG -- :   [1m[35mProduct Load (1.9ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-26T10:03:41.655552 #1027] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-11-26T10:03:47.388300 #1024] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-11-26T10:09:37.637301 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q4GMpR' LIMIT 1
+D, [2014-11-26T10:09:41.907163 #1027] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 703.85 and cadr_dust <= 904.9499999999999)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-26T10:09:48.618704 #1024] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q4GMpR' LIMIT 1[0m
+D, [2014-11-26T11:09:26.980128 #1027] DEBUG -- :   [1m[35mProduct Load (2.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-11-26T11:30:03.770647 #1024] DEBUG -- :   [1m[35mProduct Load (1.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvxyR' LIMIT 1
+D, [2014-11-26T12:38:08.426954 #1024] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q53a96' LIMIT 1[0m
+D, [2014-11-26T12:38:33.099469 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q53a96' LIMIT 1[0m
+D, [2014-11-26T12:39:18.251350 #1024] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qPpnnq' LIMIT 1
+D, [2014-11-26T12:39:55.685300 #1027] DEBUG -- :   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qPBDL6' LIMIT 1
+D, [2014-11-26T12:40:02.551779 #1024] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qPBDL6' LIMIT 1[0m
+D, [2014-11-26T13:08:08.533056 #1027] DEBUG -- :   [1m[36mProduct Load (1.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-26T22:02:48.874722 #1027] DEBUG -- :   [1m[35mProduct Load (1.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 903.3500000000001 and cadr_dust <= 1161.45)  ORDER BY cadr_dust DESC
+D, [2014-11-26T22:03:36.873432 #1024] DEBUG -- :   [1m[35mProduct Load (0.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'q5mmMq' LIMIT 1
+D, [2014-11-26T22:03:53.114298 #1027] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 903.3500000000001 and cadr_dust <= 1161.45)  ORDER BY cadr_dust DESC[0m
+D, [2014-11-30T10:22:04.164740 #1024] DEBUG -- :   [1m[36mProduct Load (8.6ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-01T07:05:45.287484 #1024] DEBUG -- :   [1m[35mProduct Load (7.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-03T04:04:49.509074 #1027] DEBUG -- :   [1m[35mProduct Load (6.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 703.85 and cadr_dust <= 904.9499999999999)  ORDER BY cadr_dust DESC
+D, [2014-12-03T04:05:44.398427 #1024] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 703.85 and cadr_dust <= 904.9499999999999)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-03T04:06:44.575607 #1027] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-03T04:07:20.302132 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvxyR' LIMIT 1
+D, [2014-12-03T04:07:42.464276 #1027] DEBUG -- :   [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-03T04:07:57.030327 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvxyR' LIMIT 1[0m
+D, [2014-12-03T04:09:45.688344 #1024] DEBUG -- :   [1m[35mProduct Load (0.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 70.875 and cadr_dust <= 91.125)  ORDER BY cadr_dust DESC
+D, [2014-12-04T21:23:36.593786 #1027] DEBUG -- :   [1m[36mProduct Load (8.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-07T00:49:06.513403 #1024] DEBUG -- :   [1m[36mProduct Load (17.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-07T00:49:39.997915 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1
+D, [2014-12-07T00:50:36.141508 #1024] DEBUG -- :   [1m[35mProduct Load (1.2ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-08T00:18:31.280648 #1027] DEBUG -- :   [1m[36mProduct Load (3.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-08T00:18:53.109375 #1024] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 703.85 and cadr_dust <= 904.9499999999999)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-08T09:42:47.912102 #1027] DEBUG -- :   [1m[35mProduct Load (2.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-08T09:43:02.160702 #1024] DEBUG -- :   [1m[35mProduct Load (1.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 703.85 and cadr_dust <= 904.9499999999999)  ORDER BY cadr_dust DESC
+D, [2014-12-08T09:47:53.989131 #1024] DEBUG -- :   [1m[36mProduct Load (1.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wbAAGq' LIMIT 1[0m
+D, [2014-12-08T09:48:35.550296 #1027] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wBJYWw' LIMIT 1[0m
+D, [2014-12-10T00:14:59.049398 #1027] DEBUG -- :   [1m[35mProduct Load (4.4ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-10T00:15:09.515508 #1024] DEBUG -- :   [1m[35mProduct Load (15.0ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9KVq' LIMIT 1
+D, [2014-12-10T00:16:05.524292 #1027] DEBUG -- :   [1m[36mProduct Load (4.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-10T04:17:26.127672 #1027] DEBUG -- :   [1m[35mProduct Load (6.5ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-14T10:35:56.284013 #1024] DEBUG -- :   [1m[36mProduct Load (295.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-14T10:35:59.620234 #1027] DEBUG -- :   [1m[36mProduct Load (6.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'RVgpDq' LIMIT 1[0m
+D, [2014-12-14T11:44:08.190463 #1024] DEBUG -- :   [1m[35mProduct Load (7.7ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-14T17:31:13.867875 #1027] DEBUG -- :   [1m[35mProduct Load (2.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wQ33KR' LIMIT 1
+D, [2014-12-14T17:31:39.663423 #1024] DEBUG -- :   [1m[36mProduct Load (4.1ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-14T17:31:46.342952 #1027] DEBUG -- :   [1m[36mProduct Load (4.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '60G4kw' LIMIT 1[0m
+D, [2014-12-14T17:32:22.664068 #1027] DEBUG -- :   [1m[35mProduct Load (5.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC
+D, [2014-12-15T01:35:58.272627 #1024] DEBUG -- :   [1m[35mProduct Load (3.9ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-15T01:36:09.657997 #1027] DEBUG -- :   [1m[36mProduct Load (3.0ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wYmZBw' LIMIT 1[0m
+D, [2014-12-15T01:36:23.028599 #1024] DEBUG -- :   [1m[36mProduct Load (2.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-15T01:38:42.806379 #1027] DEBUG -- :   [1m[35mProduct Load (7.8ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-12-15T01:38:57.546898 #1024] DEBUG -- :   [1m[35mProduct Load (5.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2014-12-15T01:40:08.252642 #1027] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
+D, [2014-12-15T01:54:06.436999 #1024] DEBUG -- :   [1m[36mProduct Load (2.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-15T01:54:10.326043 #1027] DEBUG -- :   [1m[35mProduct Load (1.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'qWvxyR' LIMIT 1
+D, [2014-12-15T01:54:20.603105 #1024] DEBUG -- :   [1m[35mProduct Load (2.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-15T01:54:25.462076 #1027] DEBUG -- :   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-15T01:54:29.288409 #1024] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9KVq' LIMIT 1[0m
+D, [2014-12-15T01:54:31.445991 #1027] DEBUG -- :   [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-19T10:44:04.843516 #1027] DEBUG -- :   [1m[36mProduct Load (20.3ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-19T10:48:15.722011 #1027] DEBUG -- :   [1m[35mProduct Load (3.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R8J7lw' LIMIT 1
+D, [2014-12-19T10:48:26.308344 #1024] DEBUG -- :   [1m[35mProduct Load (9.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'R8J7lw' LIMIT 1
+D, [2014-12-19T11:18:12.138750 #1027] DEBUG -- :   [1m[36mProduct Load (5.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 234.5 and cadr_dust <= 301.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-21T02:58:01.305005 #1027] DEBUG -- :   [1m[35mProduct Load (10.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 528.5 and cadr_dust <= 679.5)  ORDER BY cadr_dust DESC
+D, [2014-12-21T02:58:40.369148 #1024] DEBUG -- :   [1m[36mProduct Load (12.7ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 528.5 and cadr_dust <= 679.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-21T11:29:35.481112 #1027] DEBUG -- :   [1m[36mProduct Load (3.2ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 528.5 and cadr_dust <= 679.5)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-21T11:30:11.581206 #1024] DEBUG -- :   [1m[35mProduct Load (5.3ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 301.5 and cadr_dust <= 368.5)  ORDER BY cadr_dust DESC
+D, [2014-12-21T11:30:59.923198 #1027] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 528.5 and cadr_dust <= 679.5)  ORDER BY cadr_dust DESC
+D, [2014-12-22T20:43:55.839148 #1024] DEBUG -- :   [1m[36mProduct Load (9.0ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2014-12-22T20:44:30.418197 #1027] DEBUG -- :   [1m[36mProduct Load (7.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = '6LBNVq' LIMIT 1[0m
+D, [2014-12-22T20:44:40.101678 #1024] DEBUG -- :   [1m[35mProduct Load (4.8ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2014-12-24T20:38:27.882921 #1027] DEBUG -- :   [1m[35mProduct Load (8.6ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 528.5 and cadr_dust <= 679.5)  ORDER BY cadr_dust DESC
+D, [2015-01-04T02:46:38.126586 #1027] DEBUG -- :   [1m[36mProduct Load (28.5ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2015-01-04T03:31:55.523656 #1027] DEBUG -- :   [1m[35mProduct Load (6.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wbAAGq' LIMIT 1
+D, [2015-01-04T03:32:20.858992 #1024] DEBUG -- :   [1m[36mProduct Load (11.6ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC[0m
+D, [2015-01-04T03:32:50.524304 #1027] DEBUG -- :   [1m[36mProduct Load (5.4ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wbAAGq' LIMIT 1[0m
+D, [2015-01-05T02:14:27.820380 #1027] DEBUG -- :   [1m[35mProduct Load (6.1ms)[0m  SELECT "products".* FROM "products"  WHERE (cadr_dust >= 141.75 and cadr_dust <= 182.25)  ORDER BY cadr_dust DESC
+D, [2015-01-05T21:30:35.740748 #1024] DEBUG -- :   [1m[35mProduct Load (4.9ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1
+D, [2015-01-05T21:30:53.382984 #1027] DEBUG -- :   [1m[36mProduct Load (6.9ms)[0m  [1mSELECT "products".* FROM "products"  WHERE (cadr_dust >= 1164.1000000000001 and cadr_dust <= 1496.7)  ORDER BY cadr_dust DESC[0m
+D, [2015-01-05T21:31:23.120127 #1024] DEBUG -- :   [1m[36mProduct Load (2.6ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."hash_id" = 'wb9W7q' LIMIT 1[0m
