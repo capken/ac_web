@@ -5,29 +5,29 @@ angular.module('airCleanersWebApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 
   $routeProvider
     .when('/notice', {
-      templateUrl: 'views/notice.html'
+      templateUrl: 'notice.html'
     })
     .when('/nav', {
-      templateUrl: 'views/nav.html'
+      templateUrl: 'nav.html'
     })
     .when('/recommend', {
-      templateUrl: 'views/recommend.html',
+      templateUrl: 'recommend.html',
       controller: 'RecommendCtrl'
     })
     .when('/select/:selection', {
-      templateUrl: 'views/select.html',
+      templateUrl: 'select.html',
       controller: 'SelectCtrl'
     })
     .when('/products', {
-      templateUrl: 'views/products.html',
+      templateUrl: 'products.html',
       controller: 'ProductsCtrl'
     })
     .when('/products/:id/review', {
-      templateUrl: 'views/product_review.html',
+      templateUrl: 'product_review.html',
       controller: 'ProductCtrl'
     })
     .when('/products/:id/detail', {
-      templateUrl: 'views/product_detail.html',
+      templateUrl: 'product_detail.html',
       controller: 'ProductCtrl'
     })
     .otherwise({

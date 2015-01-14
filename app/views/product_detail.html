@@ -9,7 +9,7 @@
     <div id="product-image">
       <img class="img-thumbnail" ng-src="{{product.image_url}}">
     </div>
-    <div class="jumbotron">
+    <div class="well text-left">
       本产品由 <strong>{{product.brand}}</strong> 公司在 <strong>{{product.made_in ? product.made_in : '中国'}}</strong> 生产。 
       <strong>{{product.brand}}</strong> 是一家<strong>{{MfrTypeText(product.is_pro_mfr)}}</strong>。
       <span ng-show="product.filter_type">本产品的空气净化方式为 <strong>{{product.filter_type}}</strong>。</span>
